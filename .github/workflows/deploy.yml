@@ -1,25 +1,32 @@
-name: Deploy Zensical Docs
+name: Deploy Site
 on:
-  push:
-    branches:
-      - main
+    workflow_dispatch:
+    push:
+        branches:
+            - master
+            - main
 permissions:
-  contents: write
+    contents: read
+    pages: write
+    id-token: write
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - name: Install Zensical
-        run: pip install zensical
-      - name: Build site
-        run: zensical build
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+    deploy:
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d
+            - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+              with:
+                  persist-credentials: false
+            - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+              with:
+                  python-version: 3.x
+            - run: pip install zensical
+            - run: zensical build --clean --strict
+            - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9
+              with:
+                  path: site
+            - uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128
+              id: deployment
