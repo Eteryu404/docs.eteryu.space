@@ -1,12 +1,41 @@
-[data-md-color-scheme="slate"] .md-header {
-    background-color: #1e2029;
-    border-bottom: 0.1rem solid var(--md-accent-fg-color);
+/* ==========================================================================
+   PALETA KOLORÓW DRACULA DLA TRYBU CIEMNEGO (SLATE)
+   ========================================================================== */
+
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color:               #1a1b26;
+    --md-default-bg-color--light:        #21222c;
+    --md-default-bg-color--lighter:      #282a36;
+    --md-default-bg-color--lightest:     #44475a;
+
+    --md-default-fg-color:               #f8f8f2;
+    --md-default-fg-color--light:        #d6d6d4;
+    --md-default-fg-color--lighter:      #6272a4;
+
+    --md-primary-fg-color:               #1e1f29;
+    --md-accent-fg-color:                #bd93f9;
+    --md-typeset-a-color:                #bd93f9;
+
+    --md-code-bg-color:                  #191a21;
+    --md-code-fg-color:                  #f8f8f2;
 }
+
+/* ==========================================================================
+   NAGŁÓWEK I ZAKŁADKI
+   ========================================================================== */
+
+[data-md-color-scheme="slate"] .md-header {
+    background-color: #1e1f29;
+    border-bottom: 0.1rem solid #bd93f9;
+}
+
 [data-md-color-scheme="slate"] .md-tabs {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-    background-color: #263f3f;
+    background-color: #21222c;
+    border-bottom: 1px solid #44475a;
 }
+
 [data-md-color-scheme="default"] .md-header {
     background-color: white;
     border-bottom: 0.1rem solid var(--md-accent-fg-color);
@@ -17,6 +46,10 @@
     color: black;
     background-color: white;
 }
+
+/* ==========================================================================
+   MENU BOCZNE (POZIOM 2)
+   ========================================================================== */
 
 /* move level 2 items further out */
 
@@ -37,9 +70,8 @@
     width: 1px;
     background: linear-gradient(
         to bottom,
-        #21af90 0%,
-        #21af90 50%,
-        #21af90 100%
+        #bd93f9 0%,
+        #ff79c6 100%
     );
 }
 
@@ -54,15 +86,31 @@
     }
 }
 
+/* ==========================================================================
+   NAGŁÓWKI I KOD
+   ========================================================================== */
+
 /* colored headers */
 
 .md-typeset h1 {
-    color: var(--md-typeset-a-color);
+    color: #bd93f9;
     font-weight: 700;
 }
 
+/* Styl tagów i kodu wewnątrz tekstu (inline code) jak na blogu */
+.md-typeset :not(pre) > code {
+    background-color: #282a36;
+    color: #ff79c6;
+    border-radius: 4px;
+    padding: 0.15em 0.35em;
+}
+
+/* ==========================================================================
+   STOPKA
+   ========================================================================== */
+
 .md-footer {
-    border-top: 0.1rem solid var(--md-accent-fg-color);
+    border-top: 0.1rem solid #bd93f9;
 }
 
 /* shrink footer */
