@@ -35,7 +35,12 @@
     left: 0;
     height: 100%;
     width: 1px;
-    background: var(--md-accent-fg-color);
+    background: linear-gradient(
+        to bottom,
+        #21af90 0%,
+        #21af90 50%,
+        #21af90 100%
+    );
 }
 
 @media (max-width: 1220px) {
