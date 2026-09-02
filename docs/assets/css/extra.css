@@ -8,7 +8,6 @@
   --md-default-fg-color--lighter: #8a857b;
   --md-primary-fg-color: #111111;
   --md-accent-fg-color: #ff79c6;
-  --md-typeset-a-color: #ff79c6;
   --md-code-bg-color: #1a1a1a;
   --md-code-fg-color: #e6e1d6;
 }
@@ -82,19 +81,18 @@
   font-weight: 700;
 }
 
-/* Linki w tekście i kropkowane podkreślenie z bloga */
-.md-typeset a {
-  color: #ff79c6 !important;
-  text-decoration: underline !important;
-  text-decoration-style: dotted !important;
-  text-decoration-thickness: 1px !important;
-  text-underline-offset: 4px !important;
-  transition: opacity 0.2s ease;
+/* Różowe linki wyłącznie w treści artykułu */
+.md-content .md-typeset a {
+  color: #ff79c6;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
-.md-typeset a:hover {
+.md-content .md-typeset a:hover {
   opacity: 0.8;
-  text-decoration-style: solid !important;
+  text-decoration-style: solid;
 }
 
 /* Inline code z bloga */
@@ -125,22 +123,28 @@
   background-color: #0d0d0d;
 }
 
-/* Półprzezroczysty, niezasłaniający przycisk TOC z blur */
-.md-top.md-icon,
-[data-md-component="toc"] .md-icon,
+/* Przywrócenie stonowanego koloru ikon i linków w stopce (nie będą różowe) */
+.md-footer a,
+.md-social__link {
+  color: #8a857b !important;
+  text-decoration: none !important;
+}
+
+.md-footer a:hover,
+.md-social__link:hover {
+  color: #e6e1d6 !important;
+}
+
+/* Subtelny pływający przycisk spisu treści (TOC) */
 label[for="__toc"] {
-  background-color: rgba(26, 26, 26, 0.65) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  color: #ff79c6 !important;
-  border: 1px solid rgba(255, 121, 198, 0.35) !important;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4) !important;
+  background-color: #1c1d22 !important;
+  color: #e6e1d6 !important;
+  border: 1px solid #2d2e38 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
 }
 
 label[for="__toc"]:hover,
-label[for="__toc"]:active,
-.md-top.md-icon:hover {
-  background-color: rgba(255, 121, 198, 0.2) !important;
+label[for="__toc"]:active {
   color: #ff79c6 !important;
   border-color: #ff79c6 !important;
-  }
+}
