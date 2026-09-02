@@ -30,6 +30,16 @@ Copyright &copy; 2026 eteryu.space
 """
 
 # ============================================================================
+# NIESTANDARDOWE STYLE CSS
+# Ścieżka podawana jest względem katalogu "docs/".
+# Pozwala nadpisać domyślne style motywu (kolory, obramowania nagłówka/stopki,
+# układ elementów nawigacji).
+# Więcej informacji: https://zensical.org/docs/customization/#additional-css
+# ============================================================================
+
+extra_css = ["assets/css/extra.css"]
+
+# ============================================================================
 # WYGLĄD I FUNKCJE INTERFEJSU (THEME)
 # ============================================================================
 
