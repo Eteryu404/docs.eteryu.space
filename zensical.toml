@@ -124,7 +124,7 @@ logo = "lucide/shield-check"
 
 # Tryb ciemny (domyślny, gdy system użytkownika ma włączony Dark Mode)
 [[project.theme.palette]]
-primary = "deep purple"
+primary = "pink"
 accent = "pink"
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
@@ -132,7 +132,7 @@ toggle.icon = "lucide/moon"
 toggle.name = "Przełącz na jasny motyw"
 
 [[project.theme.palette]]
-primary = "deep purple"
+primary = "pink"
 accent = "pink"
 media = "(prefers-color-scheme: light)"
 scheme = "default"
