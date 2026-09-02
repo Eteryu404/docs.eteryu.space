@@ -1,32 +1,17 @@
-/* ==========================================================================
-   PALETA ETERYU.SPACE DLA ZENSICAL (KLON ESTETYKI BLOGA)
-   ========================================================================== */
-
 [data-md-color-scheme="slate"] {
-  /* Tła z Twojego bloga */
-  --md-default-bg-color:               #111111;
-  --md-default-bg-color--light:        #181818;
-  --md-default-bg-color--lighter:      #222222;
-  --md-default-bg-color--lightest:     #2c2c2c;
-
-  /* Piaskowy retro krem z Twojego :root */
-  --md-default-fg-color:               #e6e1d6;
-  --md-default-fg-color--light:        #d5cfc2;
-  --md-default-fg-color--lighter:      #8a857b;
-
-  /* Główny pasek i różowy akcent z backticków (#ff79c6) */
-  --md-primary-fg-color:               #111111;
-  --md-accent-fg-color:                #ff79c6;
-  --md-typeset-a-color:                #ff79c6;
-
-  /* Bloki kodu (dokładnie z Twojego selektora pre) */
-  --md-code-bg-color:                  #1a1a1a;
-  --md-code-fg-color:                  #e6e1d6;
+  --md-default-bg-color: #111111;
+  --md-default-bg-color--light: #181818;
+  --md-default-bg-color--lighter: #222222;
+  --md-default-bg-color--lightest: #2c2c2c;
+  --md-default-fg-color: #e6e1d6;
+  --md-default-fg-color--light: #d5cfc2;
+  --md-default-fg-color--lighter: #8a857b;
+  --md-primary-fg-color: #111111;
+  --md-accent-fg-color: #ff79c6;
+  --md-typeset-a-color: #ff79c6;
+  --md-code-bg-color: #1a1a1a;
+  --md-code-fg-color: #e6e1d6;
 }
-
-/* ==========================================================================
-   ROZMYCIE I TŁO MENU BOCZNEGO (BLUR FIX)
-   ========================================================================== */
 
 .md-overlay {
   background-color: rgba(0, 0, 0, 0.6) !important;
@@ -37,10 +22,6 @@
 [data-md-color-scheme="slate"] .md-sidebar {
   background-color: #111111;
 }
-
-/* ==========================================================================
-   NAGŁÓWEK I ZAKŁADKI (RÓŻOWY PASEK AKCENTUJĄCY)
-   ========================================================================== */
 
 [data-md-color-scheme="slate"] .md-header {
   background-color: #111111;
@@ -56,7 +37,7 @@
 
 [data-md-color-scheme="default"] .md-header {
   background-color: #ffffff;
-  border-bottom: 0.1rem solid #000000;
+  border-bottom: 0.1rem solid var(--md-accent-fg-color);
   color: #000000;
 }
 
@@ -65,17 +46,13 @@
   background-color: #ffffff;
 }
 
-/* ==========================================================================
-   MENU BOCZNE: RÓŻOWA PIONOWA LINIA DLA POZIOMU 2 (STYL RKFN)
-   ========================================================================== */
-
+/* Poziom 2 w menu bocznym */
 .md-nav[data-md-level="2"] > .md-nav__list {
   margin-left: 1.45em;
   padding-left: 0.75em;
   position: relative;
 }
 
-/* Różowy pasek identyczny z kolorem backticków */
 .md-nav[data-md-level="2"] > .md-nav__list::before {
   content: "";
   position: absolute;
@@ -97,10 +74,7 @@
   }
 }
 
-/* ==========================================================================
-   NAGŁÓWKI I PASTELOWY INLINE CODE Z BLOGA
-   ========================================================================== */
-
+/* Typografia i kod */
 .md-typeset h1,
 .md-typeset h2,
 .md-typeset h3 {
@@ -108,7 +82,6 @@
   font-weight: 700;
 }
 
-/* Dokładny pastelowy róż z 15% krycia (Dracula Rose) z Twojego CSS */
 .md-typeset :not(pre) > code {
   color: #ff79c6 !important;
   background-color: rgba(255, 121, 198, 0.15) !important;
@@ -117,10 +90,7 @@
   font-size: 0.9em !important;
 }
 
-/* ==========================================================================
-   STOPKA (FOOTER)
-   ========================================================================== */
-
+/* Stopka */
 .md-footer {
   border-top: 0.1rem solid #ff79c6;
 }
@@ -137,4 +107,22 @@
 
 [data-md-color-scheme="slate"] .md-footer-meta {
   background-color: #0d0d0d;
+}
+
+/* Pływające przyciski nawigacyjne */
+.md-top.md-icon,
+[data-md-component="toc"] .md-icon,
+label[for="__toc"] {
+  background-color: #1a1a1a !important;
+  color: #ff79c6 !important;
+  border: 1px solid rgba(255, 121, 198, 0.3) !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6) !important;
+}
+
+label[for="__toc"]:hover,
+label[for="__toc"]:active,
+.md-top.md-icon:hover {
+  background-color: #241424 !important;
+  color: #ff79c6 !important;
+  border-color: #ff79c6 !important;
 }
