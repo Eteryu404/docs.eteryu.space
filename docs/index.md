@@ -5,7 +5,7 @@ Witaj w technicznej bazie wiedzy **eteryu.space**. Znajdziesz tutaj utwardzone k
 Strona stanowi systematyczne rozszerzenie analiz publikowanych na blogu [eteryu.space](https://eteryu.space).
 
 !!! info "Zasada Zero Trust i Evergreen Docs"
-    Wszystkie poradniki są stale weryfikowane pod kątem zmian w oprogramowaniu. Zamiast "teatru prywatności", dokumentacja skupia się na mierzalnej redukcji wektorów ataku i eliminacji telemetrii.
+    Wszystkie poradniki są stale weryfikowane pod kątem zmian w oprogramowaniu. Zamiast "teatru prywatności", dokumentacja skupia się na realnej redukcji wektorów ataku i eliminacji telemetrii.
 
 ---
 
