@@ -1,23 +1,41 @@
 /* ==========================================================================
-   PALETA KOLORÓW DRACULA DLA TRYBU CIEMNEGO (SLATE)
+   PALETA ETERYU.SPACE (GŁĘBOKI CIEMNY GRAFIT + MAGENTA ACCENT)
    ========================================================================== */
 
 [data-md-color-scheme="slate"] {
-    --md-default-bg-color:               #1a1b26;
-    --md-default-bg-color--light:        #21222c;
-    --md-default-bg-color--lighter:      #282a36;
-    --md-default-bg-color--lightest:     #44475a;
+    /* Prawdziwe tło z Twojego bloga */
+    --md-default-bg-color:               #121212;
+    --md-default-bg-color--light:        #181818;
+    --md-default-bg-color--lighter:      #222222;
+    --md-default-bg-color--lightest:     #2c2c2c;
 
-    --md-default-fg-color:               #f8f8f2;
-    --md-default-fg-color--light:        #d6d6d4;
-    --md-default-fg-color--lighter:      #6272a4;
+    /* Typografia bloga */
+    --md-default-fg-color:               #e6e6e6;
+    --md-default-fg-color--light:        #b3b3b3;
+    --md-default-fg-color--lighter:      #757575;
 
-    --md-primary-fg-color:               #1e1f29;
-    --md-accent-fg-color:                #bd93f9;
-    --md-typeset-a-color:                #bd93f9;
+    /* Akcenty kolorystyczne */
+    --md-primary-fg-color:               #121212;
+    --md-accent-fg-color:                #d946ef;
+    --md-typeset-a-color:                #d946ef;
 
-    --md-code-bg-color:                  #191a21;
-    --md-code-fg-color:                  #f8f8f2;
+    /* Bloki kodu */
+    --md-code-bg-color:                  #0a0a0a;
+    --md-code-fg-color:                  #f3f4f6;
+}
+
+/* ==========================================================================
+   NAPRAWA BLURA I TŁA MENU MOBILNEGO
+   ========================================================================== */
+
+.md-overlay {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar {
+    background-color: #161616;
 }
 
 /* ==========================================================================
@@ -25,41 +43,37 @@
    ========================================================================== */
 
 [data-md-color-scheme="slate"] .md-header {
-    background-color: #1e1f29;
-    border-bottom: 0.1rem solid #bd93f9;
+    background-color: #121212;
+    border-bottom: 1px solid #282828;
 }
 
 [data-md-color-scheme="slate"] .md-tabs {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-    background-color: #21222c;
-    border-bottom: 1px solid #44475a;
+    background-color: #181818;
+    border-bottom: 1px solid #282828;
 }
 
 [data-md-color-scheme="default"] .md-header {
-    background-color: white;
-    border-bottom: 0.1rem solid var(--md-accent-fg-color);
-    color: black;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    color: #000000;
 }
 
 [data-md-color-scheme="default"] .md-tabs {
-    color: black;
-    background-color: white;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 /* ==========================================================================
    MENU BOCZNE (POZIOM 2)
    ========================================================================== */
 
-/* move level 2 items further out */
-
 .md-nav[data-md-level="2"] > .md-nav__list {
     margin-left: 1.45em;
     padding-left: 0.75em;
     position: relative;
 }
-
-/* colored bar before level 2 items */
 
 .md-nav[data-md-level="2"] > .md-nav__list::before {
     content: "";
@@ -68,11 +82,7 @@
     left: 0;
     height: 100%;
     width: 1px;
-    background: linear-gradient(
-        to bottom,
-        #bd93f9 0%,
-        #ff79c6 100%
-    );
+    background: #d946ef;
 }
 
 @media (max-width: 1220px) {
@@ -87,20 +97,27 @@
 }
 
 /* ==========================================================================
-   NAGŁÓWKI I KOD
+   TYPOGRAFIA I KOD JAK NA ETERYU.SPACE
    ========================================================================== */
 
-/* colored headers */
-
+/* Nagłówki białe jak na blogu */
 .md-typeset h1 {
-    color: #bd93f9;
+    color: #ffffff !important;
     font-weight: 700;
+    letter-spacing: -0.02em;
 }
 
-/* Styl tagów i kodu wewnątrz tekstu (inline code) jak na blogu */
+.md-typeset h2, 
+.md-typeset h3 {
+    color: #f3f4f6;
+    font-weight: 600;
+}
+
+/* Różowe tagi inline-code */
 .md-typeset :not(pre) > code {
-    background-color: #282a36;
-    color: #ff79c6;
+    background-color: #241424;
+    color: #f472b6;
+    border: 1px solid #4a1942;
     border-radius: 4px;
     padding: 0.15em 0.35em;
 }
@@ -110,10 +127,8 @@
    ========================================================================== */
 
 .md-footer {
-    border-top: 0.1rem solid #bd93f9;
+    border-top: 1px solid #282828;
 }
-
-/* shrink footer */
 
 .md-footer__link {
     margin-bottom: 0 !important;
@@ -126,5 +141,5 @@
 }
 
 [data-md-color-scheme="slate"] .md-footer-meta {
-    background-color: #141518;
+    background-color: #0d0d0d;
 }
