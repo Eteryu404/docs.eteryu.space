@@ -6,7 +6,7 @@
 [project]
 
 # Nazwa wyświetlana w nagłówku strony i tytule karty przeglądarki
-site_name = "Baza wiedzy eteryu.space"
+site_name = "docs.eteryu.space"
 
 # Opis strony umieszczany w sekcji <head> (ważne dla pozycjonowania SEO)
 site_description = "Baza wiedzy i techniczne poradniki dotyczące prywatności i cyberbezpieczeństwa."
