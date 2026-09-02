@@ -1,2 +1,194 @@
-site_name = "Moja pierwsza strona"
-site_url = "https://Eteryu404.github.io/test-page/"
+# ============================================================================
+# GŁÓWNA KONFIGURACJA PROJEKTU
+# Dokumentacja opcji: https://zensical.org/docs/setup/basics/
+# ============================================================================
+
+[project]
+
+# Nazwa wyświetlana w nagłówku strony i tytule karty przeglądarki
+site_name = "Baza wiedzy Eteryu"
+
+# Opis strony umieszczany w sekcji <head> (ważne dla pozycjonowania SEO)
+site_description = "Baza wiedzy i techniczne poradniki dotyczące prywatności i cyberbezpieczeństwa."
+
+# Autor strony
+site_author = "Eteryu"
+
+# Docelowy adres URL bazy wiedzy
+site_url = "https://docs.eteryu.space"
+
+# Link do repozytorium (tworzy odnośnik w nagłówku witryny)
+repo_url = "https://github.com/Eteryu404/docs.eteryu.space"
+repo_name = "Eteryu404/docs.eteryu.space"
+
+# Ścieżka umożliwiająca czytelnikom sugerowanie poprawek w plikach
+edit_uri = "edit/main/docs/"
+
+# Stopka autorska wyświetlana na dole każdej podstrony
+copyright = """
+Copyright &copy; 2026 eteryu.space
+"""
+
+# ============================================================================
+# WYGLĄD I FUNKCJE INTERFEJSU (THEME)
+# ============================================================================
+
+[project.theme]
+
+# Język interfejsu (wyszukiwarka, komunikaty i etykiety po polsku)
+language = "pl"
+
+# Przełączniki funkcji interfejsu
+features = [
+    # Pozwala użytkownikom zamknąć pasek ogłoszeń
+    "announce.dismiss",
+
+    # Przycisk "Edytuj tę stronę" (kieruje do edycji pliku na GitHubie)
+    "content.action.edit",
+
+    # Przycisk podglądu czystego kodu Markdown
+    "content.action.view",
+
+    # Interaktywne dymki z wyjaśnieniami w blokach kodu
+    "content.code.annotate",
+
+    # Przycisk kopiowania zawartości bloków kodu do schowka
+    "content.code.copy",
+
+    # Umożliwia zaznaczanie konkretnych linii w kodzie
+    "content.code.select",
+
+    # Wyświetla przypisy w wyskakujących dymkach zamiast skoku na dół strony
+    "content.footnote.tooltips",
+
+    # Synchronizacja przełączania zakładek o takich samych nazwach
+    "content.tabs.link",
+
+    # Eleganckie dymki z podglądem po najechaniu na link
+    "content.tooltips",
+
+    # Linki do poprzedniej i następnej strony w stopce
+    "navigation.footer",
+
+    # Umożliwia podpinanie stron wprowadzających pod sekcje menu
+    "navigation.indexes",
+
+    # Instant navigation: płynne przechodzenie między podstronami bez przeładowania
+    "navigation.instant",
+
+    # Wstępne pobieranie podstrony po najechaniu na link (szybsze wczytywanie)
+    "navigation.instant.prefetch",
+
+    # Wskaźnik ładowania na górze ekranu przy wolniejszym łączu
+    "navigation.instant.progress",
+
+    # Nawigacja okruszkowa (ścieżka do pliku nad tytułem)
+    "navigation.path",
+
+    # Optymalizacja: redukuje rozmiar generowanego HTML poprzez ukrywanie niewidocznego menu
+    "navigation.prune",
+
+    # Grupuje sekcje na dużych ekranach w czytelne bloki
+    "navigation.sections",
+
+    # Przycisk powrotu na samą górę strony przy przewijaniu
+    "navigation.top",
+
+    # Aktualizuje kotwicę w pasku adresu w trakcie przewijania tekstu
+    "navigation.tracking",
+
+    # Podświetla wyszukiwane słowa po przejściu z wyników wyszukiwania
+    "search.highlight",
+
+    # Płynne śledzenie spisu treści (TOC) podczas czytania
+    "toc.follow",
+]
+
+# Główna ikona w nagłówku strony
+[project.theme.icon]
+logo = "lucide/shield-check"
+
+# ============================================================================
+# PALETA KOLORÓW I TRYB CIEMNY/JASNY
+# ============================================================================
+
+# Tryb ciemny (domyślny, gdy system użytkownika ma włączony Dark Mode)
+[[project.theme.palette]]
+primary = "deep purple"
+accent = "deep purple"
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Przełącz na jasny motyw"
+
+# Tryb jasny (aktywowany przełącznikiem lub preferencją systemową)
+[[project.theme.palette]]
+primary = "deep purple"
+accent = "deep purple"
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Przełącz na ciemny motyw"
+
+# ============================================================================
+# LINKI SPOŁECZNOŚCIOWE W STOPCE
+# ============================================================================
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/Eteryu404/docs.eteryu.space"
+name = "Repozytorium GitHub"
+
+# ============================================================================
+# ROZSZERZENIA FORMATOWANIA MARKDOWN
+# Pozwalają na formatowanie tabel, ramek ostrzegawczych, zakładek i diagramów
+# ============================================================================
+
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+
+[project.markdown_extensions.toc]
+permalink = true
+
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+
+[project.markdown_extensions.pymdownx.betterem]
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_generator = "zensical.extensions.emoji.to_svg"
+emoji_index = "zensical.extensions.emoji.twemoji"
+
+[project.markdown_extensions.pymdownx.highlight]
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.magiclink]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+
+# Obsługa diagramów (np. Mermaid) w blokach kodu
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+
+# Obsługa zakładek z treścią
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+combine_header_slug = true
+
+# Listy zadań (checkboxy)
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+
+[project.markdown_extensions.pymdownx.tilde]
