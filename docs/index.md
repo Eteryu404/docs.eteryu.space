@@ -1,6 +1,6 @@
-# Dokumentacja i Procedury Bezpieczeństwa
+# docs.eteryu.space
 
-Witaj w technicznej bazie wiedzy **Eteryu**. Znajdziesz tutaj utwardzone konfiguracje, procedury zabezpieczania urządzeń oraz dokumentację modeli Zero Trust w środowiskach mobilnych i desktopowych.
+Witaj w technicznej bazie wiedzy **eteryu.space**. Znajdziesz tutaj utwardzone konfiguracje, procedury zabezpieczania urządzeń oraz dokumentację modeli Zero Trust w środowiskach mobilnych i desktopowych.
 
 Strona stanowi systematyczne rozszerzenie analiz publikowanych na blogu [eteryu.space](https://eteryu.space).
 
