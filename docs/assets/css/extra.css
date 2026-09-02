@@ -1,145 +1,140 @@
 /* ==========================================================================
-   PALETA ETERYU.SPACE (GŁĘBOKI CIEMNY GRAFIT + MAGENTA ACCENT)
+   PALETA ETERYU.SPACE DLA ZENSICAL (KLON ESTETYKI BLOGA)
    ========================================================================== */
 
 [data-md-color-scheme="slate"] {
-    /* Prawdziwe tło z Twojego bloga */
-    --md-default-bg-color:               #121212;
-    --md-default-bg-color--light:        #181818;
-    --md-default-bg-color--lighter:      #222222;
-    --md-default-bg-color--lightest:     #2c2c2c;
+  /* Tła z Twojego bloga */
+  --md-default-bg-color:               #111111;
+  --md-default-bg-color--light:        #181818;
+  --md-default-bg-color--lighter:      #222222;
+  --md-default-bg-color--lightest:     #2c2c2c;
 
-    /* Typografia bloga */
-    --md-default-fg-color:               #e6e6e6;
-    --md-default-fg-color--light:        #b3b3b3;
-    --md-default-fg-color--lighter:      #757575;
+  /* Piaskowy retro krem z Twojego :root */
+  --md-default-fg-color:               #e6e1d6;
+  --md-default-fg-color--light:        #d5cfc2;
+  --md-default-fg-color--lighter:      #8a857b;
 
-    /* Akcenty kolorystyczne */
-    --md-primary-fg-color:               #121212;
-    --md-accent-fg-color:                #d946ef;
-    --md-typeset-a-color:                #d946ef;
+  /* Główny pasek i różowy akcent z backticków (#ff79c6) */
+  --md-primary-fg-color:               #111111;
+  --md-accent-fg-color:                #ff79c6;
+  --md-typeset-a-color:                #ff79c6;
 
-    /* Bloki kodu */
-    --md-code-bg-color:                  #0a0a0a;
-    --md-code-fg-color:                  #f3f4f6;
+  /* Bloki kodu (dokładnie z Twojego selektora pre) */
+  --md-code-bg-color:                  #1a1a1a;
+  --md-code-fg-color:                  #e6e1d6;
 }
 
 /* ==========================================================================
-   NAPRAWA BLURA I TŁA MENU MOBILNEGO
+   ROZMYCIE I TŁO MENU BOCZNEGO (BLUR FIX)
    ========================================================================== */
 
 .md-overlay {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-    backdrop-filter: blur(8px) !important;
-    -webkit-backdrop-filter: blur(8px) !important;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
 }
 
 [data-md-color-scheme="slate"] .md-sidebar {
-    background-color: #161616;
+  background-color: #111111;
 }
 
 /* ==========================================================================
-   NAGŁÓWEK I ZAKŁADKI
+   NAGŁÓWEK I ZAKŁADKI (RÓŻOWY PASEK AKCENTUJĄCY)
    ========================================================================== */
 
 [data-md-color-scheme="slate"] .md-header {
-    background-color: #121212;
-    border-bottom: 1px solid #282828;
+  background-color: #111111;
+  border-bottom: 0.1rem solid #ff79c6;
 }
 
 [data-md-color-scheme="slate"] .md-tabs {
-    border-bottom-left-radius: 10px !important;
-    border-bottom-right-radius: 10px !important;
-    background-color: #181818;
-    border-bottom: 1px solid #282828;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  background-color: #181818;
+  border-bottom: 0.1rem solid #ff79c6;
 }
 
 [data-md-color-scheme="default"] .md-header {
-    background-color: #ffffff;
-    border-bottom: 1px solid #e5e7eb;
-    color: #000000;
+  background-color: #ffffff;
+  border-bottom: 0.1rem solid #000000;
+  color: #000000;
 }
 
 [data-md-color-scheme="default"] .md-tabs {
-    color: #000000;
-    background-color: #ffffff;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 /* ==========================================================================
-   MENU BOCZNE (POZIOM 2)
+   MENU BOCZNE: RÓŻOWA PIONOWA LINIA DLA POZIOMU 2 (STYL RKFN)
    ========================================================================== */
 
 .md-nav[data-md-level="2"] > .md-nav__list {
-    margin-left: 1.45em;
-    padding-left: 0.75em;
-    position: relative;
+  margin-left: 1.45em;
+  padding-left: 0.75em;
+  position: relative;
 }
 
+/* Różowy pasek identyczny z kolorem backticków */
 .md-nav[data-md-level="2"] > .md-nav__list::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 1px;
-    background: #d946ef;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 1.5px;
+  background-color: #ff79c6;
 }
 
 @media (max-width: 1220px) {
-    .md-nav[data-md-level="2"] > .md-nav__list::before {
-        opacity: 0%;
-    }
+  .md-nav[data-md-level="2"] > .md-nav__list::before {
+    opacity: 0%;
+  }
 
-    .md-nav[data-md-level="2"] > .md-nav__list {
-        margin-left: 0;
-        padding-left: 0;
-    }
+  .md-nav[data-md-level="2"] > .md-nav__list {
+    margin-left: 0;
+    padding-left: 0;
+  }
 }
 
 /* ==========================================================================
-   TYPOGRAFIA I KOD JAK NA ETERYU.SPACE
+   NAGŁÓWKI I PASTELOWY INLINE CODE Z BLOGA
    ========================================================================== */
 
-/* Nagłówki białe jak na blogu */
-.md-typeset h1 {
-    color: #ffffff !important;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-}
-
-.md-typeset h2, 
+.md-typeset h1,
+.md-typeset h2,
 .md-typeset h3 {
-    color: #f3f4f6;
-    font-weight: 600;
+  color: #e6e1d6 !important;
+  font-weight: 700;
 }
 
-/* Różowe tagi inline-code */
+/* Dokładny pastelowy róż z 15% krycia (Dracula Rose) z Twojego CSS */
 .md-typeset :not(pre) > code {
-    background-color: #241424;
-    color: #f472b6;
-    border: 1px solid #4a1942;
-    border-radius: 4px;
-    padding: 0.15em 0.35em;
+  color: #ff79c6 !important;
+  background-color: rgba(255, 121, 198, 0.15) !important;
+  padding: 2px 6px !important;
+  border-radius: 4px !important;
+  font-size: 0.9em !important;
 }
 
 /* ==========================================================================
-   STOPKA
+   STOPKA (FOOTER)
    ========================================================================== */
 
 .md-footer {
-    border-top: 1px solid #282828;
+  border-top: 0.1rem solid #ff79c6;
 }
 
 .md-footer__link {
-    margin-bottom: 0 !important;
-    margin-top: 0.2rem !important;
+  margin-bottom: 0 !important;
+  margin-top: 0.2rem !important;
 }
 
 .md-social,
 .md-copyright {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 [data-md-color-scheme="slate"] .md-footer-meta {
-    background-color: #0d0d0d;
+  background-color: #0d0d0d;
 }
