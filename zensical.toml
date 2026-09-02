@@ -131,7 +131,6 @@ scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Przełącz na jasny motyw"
 
-# Tryb jasny (aktywowany przełącznikiem lub preferencją systemową)
 [[project.theme.palette]]
 primary = "deep purple"
 accent = "deep purple"
