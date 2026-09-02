@@ -1,11 +1,11 @@
 [data-md-color-scheme="slate"] .md-header {
-    background-color: #1e2029;
-    border-bottom: 0.1rem solid var(--md-accent-fg-color);
+    background-color: #111111;
+    border-bottom: 0.1rem solid #ff79c6;
 }
 [data-md-color-scheme="slate"] .md-tabs {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-    background-color: #263f3f;
+    background-color: #181818;
 }
 [data-md-color-scheme="default"] .md-header {
     background-color: white;
@@ -37,9 +37,9 @@
     width: 1px;
     background: linear-gradient(
         to bottom,
-        #21af90 0%,
-        #21af90 50%,
-        #21af90 100%
+        #ff79c6 0%,
+        #ff79c6 50%,
+        #ff79c6 100%
     );
 }
 
@@ -57,12 +57,12 @@
 /* colored headers */
 
 .md-typeset h1 {
-    color: var(--md-typeset-a-color);
+    color: #ff79c6;
     font-weight: 700;
 }
 
 .md-footer {
-    border-top: 0.1rem solid var(--md-accent-fg-color);
+    border-top: 0.1rem solid #ff79c6;
 }
 
 /* shrink footer */
@@ -78,5 +78,5 @@
 }
 
 [data-md-color-scheme="slate"] .md-footer-meta {
-    background-color: #141518;
+    background-color: #111111;
 }
