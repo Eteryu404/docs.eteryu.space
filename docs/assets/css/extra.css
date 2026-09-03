@@ -127,3 +127,11 @@ body {
 [data-md-color-scheme="slate"] .md-footer-meta {
     background-color: hsla(var(--md-hue), 15%, 7%, 1);
     }
+
+/* custom logo size and shape (header and mobile drawer) */
+.md-header__button.md-logo img,
+.md-nav__title .md-logo img {
+    height: 2.5rem !important; /* ponad dwukrotnie większe logo */
+    width: auto !important;
+    border-radius: 50%; /* idealnie okrągły kaczor */
+}
