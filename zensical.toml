@@ -48,8 +48,6 @@ extra_css = ["assets/css/extra.css"]
 # Język interfejsu (wyszukiwarka, komunikaty i etykiety po polsku)
 language = "pl"
 
-variant = "modern"
-
 # Przełączniki funkcji interfejsu
 features = [
     # Pozwala użytkownikom zamknąć pasek ogłoszeń
