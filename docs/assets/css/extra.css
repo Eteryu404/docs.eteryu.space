@@ -119,21 +119,18 @@ body {
 }
 
 /* custom footer spacing and typography */
-.md-copyright,
-.md-social {
-    padding-bottom: 1.5rem !important;
-    padding-top: 0.5rem !important;
-}
-
-/* base copyright size */
 .md-copyright {
+    padding: 0 0 0.5rem 0 !important; /* tight gap below text */
     font-size: 0.65rem !important;
 }
 
-/* fine-print typography for copyright highlight */
+.md-social {
+    padding: 0 0 0.75rem 0 !important; /* breathing room at the very bottom */
+}
+
+/* fine-print typography for copyright highlight (standard font) */
 .md-copyright__highlight {
     font-size: 0.55rem !important;
-    font-family: var(--md-code-font-family, SFMono-Regular, Consolas, monospace) !important;
     color: var(--md-footer-fg-color--lighter) !important;
 }
 
