@@ -10,7 +10,7 @@ copyright = "Copyright &copy; 2026 Eteryu"
 nav = [
     { "Baza wiedzy" = "index.md" },
     { "Fundamenty" = [
-        "fundamenty/absolutne-minimum.md"
+        { "Absolutne minimum" = "fundamenty/absolutne-minimum.md" }
     ]}
 ]
 
@@ -38,7 +38,6 @@ features = [
     "navigation.instant.progress",
     "navigation.path",
     "navigation.prune",
-    "navigation.sections",
     "navigation.top",
     "navigation.tracking",
     "search.highlight",
