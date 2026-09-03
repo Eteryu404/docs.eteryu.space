@@ -45,6 +45,8 @@ extra_css = ["assets/css/extra.css"]
 
 [project.theme]
 
+logo = "assets/img/1552167043208769.png"
+
 # Język interfejsu (wyszukiwarka, komunikaty i etykiety po polsku)
 language = "pl"
 
@@ -117,7 +119,6 @@ features = [
 # Główna ikona w nagłówku strony
 [project.theme.icon]
 # logo = "lucide/shield-check"
-logo = "assets/img/1552167043208769.png"
 
 # ============================================================================
 # PALETA KOLORÓW I TRYB CIEMNY/JASNY
