@@ -1,4 +1,8 @@
-# docs.eteryu.space
+---
+icon: "lucide/house"
+---
+
+# :lucide-home: docs.eteryu.space
 
 Witaj w technicznej bazie wiedzy **eteryu.space**. Znajdziesz tutaj utwardzone konfiguracje, procedury zabezpieczania urządzeń oraz dokumentację modeli Zero Trust w środowiskach mobilnych i desktopowych.
 
