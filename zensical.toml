@@ -116,7 +116,8 @@ features = [
 
 # Główna ikona w nagłówku strony
 [project.theme.icon]
-logo = "lucide/shield-check"
+# logo = "lucide/shield-check"
+logo = "docs/img/1552167043208769.png"
 
 # ============================================================================
 # PALETA KOLORÓW I TRYB CIEMNY/JASNY
