@@ -1,8 +1,4 @@
----
-icon: "lucide/house"
----
-
-# :lucide-home: Baza wiedzy Eteryu.space
+Baza wiedzy Eteryu.space
 
 Witaj w technicznej bazie wiedzy **Eteryu**. Znajdziesz tutaj utwardzone konfiguracje, procedury zabezpieczania urządzeń oraz dokumentację modeli Zero Trust w środowiskach mobilnych i desktopowych.
 
