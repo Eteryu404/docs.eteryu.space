@@ -142,7 +142,7 @@ body {
 
 /* adjust horizontal spacing and pull logo up to optical center */
 .md-nav__title .md-logo {
-    margin: -0.3rem 1.25rem 0 0.2rem !important;
+    margin: -0.4rem 1.25rem 0 0.2rem !important;
     padding: 0 !important;
     display: flex !important;
 }
