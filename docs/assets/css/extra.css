@@ -118,9 +118,23 @@ body {
     margin-top: 0.2rem !important;
 }
 
-.md-social,
+/* custom footer spacing and typography */
+.md-copyright,
+.md-social {
+    padding-bottom: 1.5rem !important;
+    padding-top: 0.5rem !important;
+}
+
+/* base copyright size */
 .md-copyright {
-    padding: 0 !important;
+    font-size: 0.65rem !important;
+}
+
+/* fine-print typography for copyright highlight */
+.md-copyright__highlight {
+    font-size: 0.55rem !important;
+    font-family: var(--md-code-font-family, SFMono-Regular, Consolas, monospace) !important;
+    color: var(--md-footer-fg-color--lighter) !important;
 }
 
 /* match footer meta background (7% lightness for the very bottom) */
@@ -140,7 +154,7 @@ body {
     align-items: center !important;
 }
 
-/* adjust horizontal spacing and pull logo up to optical center */
+/* strip native padding causing vertical drop, balance horizontal spacing */
 .md-nav__title .md-logo {
     margin: -0.6rem 1.25rem 0 0.2rem !important;
     padding: 0 !important;
