@@ -1,130 +1,43 @@
-# ============================================================================
-# GŁÓWNA KONFIGURACJA PROJEKTU
-# Dokumentacja opcji: https://zensical.org/docs/setup/basics/
-# ============================================================================
-
+# main project configuration
 [project]
-
-# Nazwa wyświetlana w nagłówku strony i tytule karty przeglądarki
 site_name = "Baza wiedzy Eteryu.space"
-
-# Opis strony umieszczany w sekcji <head> (ważne dla pozycjonowania SEO)
 site_description = "Baza wiedzy i techniczne poradniki dotyczące prywatności i cyberbezpieczeństwa."
-
-# Autor strony
 site_author = "Eteryu"
-
-# Docelowy adres URL bazy wiedzy
 site_url = "https://docs.eteryu.space"
+copyright = "Copyright &copy; 2026 Eteryu"
 
-# Link do repozytorium (tworzy odnośnik w nagłówku witryny)
-# repo_url = "https://github.com/Eteryu404/docs.eteryu.space"
-# repo_name = "Eteryu404/docs.eteryu.space"
-
-# Ścieżka umożliwiająca czytelnikom sugerowanie poprawek w plikach
-# edit_uri = "edit/main/docs/"
-
-# Stopka autorska wyświetlana na dole każdej podstrony
-copyright = """
-Copyright &copy; 2026 Eteryu
-"""
-
-# ============================================================================
-# NIESTANDARDOWE STYLE CSS
-# Ścieżka podawana jest względem katalogu "docs/".
-# Pozwala nadpisać domyślne style motywu (kolory, obramowania nagłówka/stopki,
-# układ elementów nawigacji).
-# Więcej informacji: https://zensical.org/docs/customization/#additional-css
-# ============================================================================
-
+# custom styles
 extra_css = ["assets/css/extra.css"]
 
-# ============================================================================
-# WYGLĄD I FUNKCJE INTERFEJSU (THEME)
-# ============================================================================
-
+# theme settings
 [project.theme]
-
 logo = "assets/img/1552167043208769.png"
-
-# Język interfejsu (wyszukiwarka, komunikaty i etykiety po polsku)
 language = "pl"
 
-# Przełączniki funkcji interfejsu
+# ui features
 features = [
-    # Pozwala użytkownikom zamknąć pasek ogłoszeń
     "announce.dismiss",
-
-    # Przycisk "Edytuj tę stronę" (kieruje do edycji pliku na GitHubie)
-    # "content.action.edit",
-
-    # Przycisk podglądu czystego kodu Markdown
-    # "content.action.view",
-
-    # Interaktywne dymki z wyjaśnieniami w blokach kodu
     "content.code.annotate",
-
-    # Przycisk kopiowania zawartości bloków kodu do schowka
     "content.code.copy",
-
-    # Umożliwia zaznaczanie konkretnych linii w kodzie
     "content.code.select",
-
-    # Wyświetla przypisy w wyskakujących dymkach zamiast skoku na dół strony
     "content.footnote.tooltips",
-
-    # Synchronizacja przełączania zakładek o takich samych nazwach
     "content.tabs.link",
-
-    # Eleganckie dymki z podglądem po najechaniu na link
     "content.tooltips",
-
-    # Linki do poprzedniej i następnej strony w stopce
     "navigation.footer",
-
-    # Umożliwia podpinanie stron wprowadzających pod sekcje menu
     "navigation.indexes",
-
-    # Instant navigation: płynne przechodzenie między podstronami bez przeładowania
     "navigation.instant",
-
-    # Wstępne pobieranie podstrony po najechaniu na link (szybsze wczytywanie)
     "navigation.instant.prefetch",
-
-    # Wskaźnik ładowania na górze ekranu przy wolniejszym łączu
     "navigation.instant.progress",
-
-    # Nawigacja okruszkowa (ścieżka do pliku nad tytułem)
     "navigation.path",
-
-    # Optymalizacja: redukuje rozmiar generowanego HTML poprzez ukrywanie niewidocznego menu
     "navigation.prune",
-
-    # Grupuje sekcje na dużych ekranach w czytelne bloki
     "navigation.sections",
-
-    # Przycisk powrotu na samą górę strony przy przewijaniu
     "navigation.top",
-
-    # Aktualizuje kotwicę w pasku adresu w trakcie przewijania tekstu
     "navigation.tracking",
-
-    # Podświetla wyszukiwane słowa po przejściu z wyników wyszukiwania
     "search.highlight",
-
-    # Płynne śledzenie spisu treści (TOC) podczas czytania
     "toc.follow",
 ]
 
-# Główna ikona w nagłówku strony
-[project.theme.icon]
-# logo = "lucide/shield-check"
-
-# ============================================================================
-# PALETA KOLORÓW I TRYB CIEMNY/JASNY
-# ============================================================================
-
-# Tryb ciemny (domyślny, gdy system użytkownika ma włączony Dark Mode)
+# color palette (dark/light mode toggles)
 [[project.theme.palette]]
 primary = "black"
 accent = "pink"
@@ -141,20 +54,13 @@ scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
-# ============================================================================
-# LINKI SPOŁECZNOŚCIOWE W STOPCE
-# ============================================================================
-
+# footer social links
 [[project.extra.social]]
-icon = "fontawesome/brands/github"
-link = "https://github.com/Eteryu404/docs.eteryu.space"
-name = "Repozytorium GitHub"
+icon = "fontawesome/brands/mastodon"
+link = "https://infosec.exchange/@eteryu"
+name = "Mastodon"
 
-# ============================================================================
-# ROZSZERZENIA FORMATOWANIA MARKDOWN
-# Pozwalają na formatowanie tabel, ramek ostrzegawczych, zakładek i diagramów
-# ============================================================================
-
+# markdown extensions
 [project.markdown_extensions.abbr]
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
@@ -187,18 +93,15 @@ pygments_lang_class = true
 [project.markdown_extensions.pymdownx.mark]
 [project.markdown_extensions.pymdownx.smartsymbols]
 
-# Obsługa diagramów (np. Mermaid) w blokach kodu
 [project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
 
-# Obsługa zakładek z treścią
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 combine_header_slug = true
 
-# Listy zadań (checkboxy)
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 
