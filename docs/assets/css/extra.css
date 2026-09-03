@@ -140,9 +140,9 @@ body {
     align-items: center !important;
 }
 
-/* strip native padding causing vertical drop, balance horizontal spacing */
+/* adjust horizontal spacing and pull logo up to optical center */
 .md-nav__title .md-logo {
-    margin: 0 1rem 0 0.2rem !important;
+    margin: -0.3rem 1.25rem 0 0.2rem !important;
     padding: 0 !important;
     display: flex !important;
 }
