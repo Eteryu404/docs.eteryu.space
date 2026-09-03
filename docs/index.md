@@ -1,7 +1,5 @@
 ---
 title: Baza wiedzy
-hide:
-  - toc
 ---
 
 # Baza wiedzy Eteryu.space
