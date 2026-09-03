@@ -1,7 +1,7 @@
-/* Główne kolory tła dla trybu ciemnego (One Dark) */
+/* Główne kolory tła dla trybu ciemnego (One Dark w formacie HSLA) */
 [data-md-color-scheme="slate"] {
-    --md-default-bg-color: #282c34; 
-    --md-default-bg-color--light: #2d3139; 
+    --md-default-bg-color: hsla(220, 13%, 18%, 1); 
+    --md-default-bg-color--light: hsla(220, 12%, 20%, 1); 
 }
 
 [data-md-color-scheme="slate"] .md-header {
@@ -24,21 +24,14 @@
     background-color: white;
 }
 
-/* Naprawa przezroczystości nakładki przy otwartym menu mobilnym */
-[data-md-color-scheme="slate"] .md-overlay {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-}
-
-/* move level 2 items further out */
-
+/* Przesunięcie elementów drugiego poziomu bardziej na zewnątrz */
 .md-nav[data-md-level="2"] > .md-nav__list {
     margin-left: 1.45em;
     padding-left: 0.75em;
     position: relative;
 }
 
-/* colored bar before level 2 items */
-
+/* Kolorowy pasek przed elementami drugiego poziomu */
 .md-nav[data-md-level="2"] > .md-nav__list::before {
     content: "";
     position: absolute;
@@ -65,8 +58,7 @@
     }
 }
 
-/* colored headers */
-
+/* Kolorowe nagłówki H1 */
 .md-typeset h1 {
     color: var(--md-typeset-a-color);
     font-weight: 700;
@@ -76,8 +68,7 @@
     border-top: 0.1rem solid var(--md-accent-fg-color);
 }
 
-/* shrink footer */
-
+/* Zmniejszenie odstępów w stopce */
 .md-footer__link {
     margin-bottom: 0 !important;
     margin-top: 0.2rem !important;
