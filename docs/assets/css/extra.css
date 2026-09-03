@@ -84,3 +84,14 @@
 [data-md-color-scheme="slate"] .md-footer-meta {
     background-color: #141518;
 }
+
+/* Naprawa glitcha na dole ekranu (Mobilny pasek adresu i overscroll) */
+html {
+    background-color: var(--md-default-bg-color);
+}
+
+.md-overlay,
+.md-sidebar {
+    height: 100vh; 
+    height: 100dvh !important; 
+}
