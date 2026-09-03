@@ -1,5 +1,6 @@
-/* slate scheme background colors (Happy Hare palette) */
+/* slate scheme background colors (soft dark slate) */
 [data-md-color-scheme="slate"] {
+    --md-hue: 232; 
     --md-default-bg-color: hsla(var(--md-hue), 15%, 12%, 1);
     --md-default-bg-color--light: hsla(var(--md-hue), 15%, 12%, 0.54);
     --md-default-bg-color--lighter: hsla(var(--md-hue), 15%, 12%, 0.26);
@@ -8,13 +9,34 @@
     --md-default-fg-color--light: hsla(var(--md-hue), 15%, 95%, 0.80);
     --md-default-fg-color--lighter: hsla(var(--md-hue), 15%, 95%, 0.48);
     --md-default-fg-color--lightest: hsla(var(--md-hue), 15%, 95%, 0.20);
-    --md-code-fg-color: hsla(var(--md-hue), 20%, 90%, 0.95);
-    --md-code-bg-color: hsla(var(--md-hue), 15%, 20%, 1);
 }
 
 /* force links to use accent color */
 body {
     --md-typeset-a-color: var(--md-accent-fg-color) !important;
+}
+
+/* darker header and tabs (9% lightness instead of 12%) */
+[data-md-color-scheme="slate"] .md-header {
+    background-color: hsla(var(--md-hue), 15%, 9%, 1);
+    border-bottom: none;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    background-color: hsla(var(--md-hue), 15%, 9%, 1);
+}
+
+[data-md-color-scheme="default"] .md-header {
+    background-color: white;
+    border-bottom: none;
+    color: black;
+}
+
+[data-md-color-scheme="default"] .md-tabs {
+    color: black;
+    background-color: white;
 }
 
 /* subtitle in header */
@@ -82,6 +104,12 @@ body {
     font-weight: 700;
 }
 
+/* darker footer and top border */
+[data-md-color-scheme="slate"] .md-footer {
+    border-top: 1px solid var(--md-default-bg-color--lighter);
+    background-color: hsla(var(--md-hue), 15%, 9%, 1);
+}
+
 /* shrink footer */
 .md-footer__link {
     margin-bottom: 0 !important;
@@ -91,4 +119,9 @@ body {
 .md-social,
 .md-copyright {
     padding: 0 !important;
+}
+
+/* match footer meta background (7% lightness for the very bottom) */
+[data-md-color-scheme="slate"] .md-footer-meta {
+    background-color: hsla(var(--md-hue), 15%, 7%, 1);
 }
