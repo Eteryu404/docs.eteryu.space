@@ -1,9 +1,14 @@
-/* Główne tło (Bezpośrednie przypisanie omijające błędy zmiennych MkDocs) */
-[data-md-color-scheme="slate"] body,
-[data-md-color-scheme="slate"] .md-sidebar {
+/* ===================================================================
+   ZMIANA TŁA DLA GŁÓWNEJ TREŚCI (Tylko tło i pasek boczny - One Dark) 
+=================================================================== */
+body[data-md-color-scheme="slate"],
+body[data-md-color-scheme="slate"] .md-sidebar {
     background-color: #282c34 !important;
 }
 
+/* ===================================================================
+   TWOJE ORYGINALNE STYLE (BEZ ŻADNYCH ZMIAN)
+=================================================================== */
 [data-md-color-scheme="slate"] .md-header {
     background-color: #1e2029;
     border-bottom: 0.1rem solid var(--md-accent-fg-color);
@@ -24,14 +29,14 @@
     background-color: white;
 }
 
-/* Przesunięcie elementów drugiego poziomu bardziej na zewnątrz */
+/* move level 2 items further out */
 .md-nav[data-md-level="2"] > .md-nav__list {
     margin-left: 1.45em;
     padding-left: 0.75em;
     position: relative;
 }
 
-/* Kolorowy pasek przed elementami drugiego poziomu */
+/* colored bar before level 2 items */
 .md-nav[data-md-level="2"] > .md-nav__list::before {
     content: "";
     position: absolute;
@@ -58,7 +63,7 @@
     }
 }
 
-/* Kolorowe nagłówki H1 */
+/* colored headers */
 .md-typeset h1 {
     color: var(--md-typeset-a-color);
     font-weight: 700;
@@ -68,7 +73,7 @@
     border-top: 0.1rem solid var(--md-accent-fg-color);
 }
 
-/* Zmniejszenie odstępów w stopce */
+/* shrink footer */
 .md-footer__link {
     margin-bottom: 0 !important;
     margin-top: 0.2rem !important;
