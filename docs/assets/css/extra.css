@@ -1,7 +1,7 @@
-/* Główne kolory tła dla trybu ciemnego (One Dark w formacie HSLA) */
-[data-md-color-scheme="slate"] {
-    --md-default-bg-color: hsla(220, 13%, 18%, 1); 
-    --md-default-bg-color--light: hsla(220, 12%, 20%, 1); 
+/* Główne tło (Bezpośrednie przypisanie omijające błędy zmiennych MkDocs) */
+[data-md-color-scheme="slate"] body,
+[data-md-color-scheme="slate"] .md-sidebar {
+    background-color: #282c34 !important;
 }
 
 [data-md-color-scheme="slate"] .md-header {
