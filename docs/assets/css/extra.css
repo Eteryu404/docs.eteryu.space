@@ -127,3 +127,28 @@ body {
 [data-md-color-scheme="slate"] .md-footer-meta {
     background-color: hsla(var(--md-hue), 15%, 7%, 1);
 }
+
+/* =========================================================
+   FLAT DESIGN MOBILE MENU (usuwanie zaokrągleń i marginesów)
+   ========================================================= */
+@media screen and (max-width: 76.1875em) {
+    /* Usuwamy zmienne odpowiedzialne za zaokrąglenia w menu mobilnym */
+    .md-nav[data-md-level="1"] {
+        --md-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    /* Likwidujemy obramowanie i dopinamy szufladę do lewej krawędzi */
+    .md-sidebar--primary .md-sidebar__scrollwrap {
+        border-radius: 0 !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        border: none !important;
+    }
+
+    /* Kwadratowy nagłówek (title) wewnątrz wysuwanego menu */
+    .md-nav__title {
+        border-radius: 0 !important;
+    }
+                           }
