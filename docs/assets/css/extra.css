@@ -16,10 +16,11 @@ body {
     --md-typeset-a-color: var(--md-accent-fg-color) !important;
 }
 
-/* darker header and tabs (9% lightness instead of 12%) */
+/* darker header and tabs (flat, no shadow or line) */
 [data-md-color-scheme="slate"] .md-header {
     background-color: hsla(var(--md-hue), 15%, 9%, 1);
-    border-bottom: none;
+    border-bottom: none !important;
+    box-shadow: none !important;
 }
 
 [data-md-color-scheme="slate"] .md-tabs {
@@ -30,7 +31,8 @@ body {
 
 [data-md-color-scheme="default"] .md-header {
     background-color: white;
-    border-bottom: none;
+    border-bottom: none !important;
+    box-shadow: none !important;
     color: black;
 }
 
