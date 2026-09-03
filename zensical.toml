@@ -124,7 +124,7 @@ logo = "lucide/shield-check"
 
 # Tryb ciemny (domyślny, gdy system użytkownika ma włączony Dark Mode)
 [[project.theme.palette]]
-primary = "indigo"
+primary = "cyan"
 accent = "cyan"
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
