@@ -6,6 +6,14 @@ site_author = "Eteryu"
 site_url = "https://docs.eteryu.space"
 copyright = "Copyright &copy; 2026 Eteryu"
 
+# manual navigation menu (overrides automatic folder scanning)
+nav = [
+    { "Baza wiedzy" = "index.md" },
+    { "Fundamenty" = [
+        "fundamenty/absolutne-minimum.md"
+    ]}
+]
+
 # custom styles
 extra_css = ["assets/css/extra.css"]
 
