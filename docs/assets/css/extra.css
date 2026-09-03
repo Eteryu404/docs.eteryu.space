@@ -128,23 +128,16 @@ body {
     background-color: hsla(var(--md-hue), 15%, 7%, 1);
 }
 
-/* custom logo size and shape (anti-squish flexbox rules) */
-.md-header__button.md-logo,
-.md-nav__title .md-logo {
-    margin: 0 !important;
-    padding: 0.2rem !important;
-    flex-shrink: 0 !important; /* prevents flexbox from squishing the container */
-    display: inline-flex !important;
+/* custom logo: hidden in header, visible in mobile drawer */
+.md-header__button.md-logo {
+    display: none !important;
 }
 
-/* force specific size, prevent squeezing, and perfect circle */
-.md-header__button.md-logo img,
+/* specific formatting for the mobile drawer logo only */
 .md-nav__title .md-logo img {
-    width: 2.5rem !important;
-    height: 2.5rem !important;
-    min-width: 2.5rem !important; /* prevents flexbox from squishing the image */
-    min-height: 2.5rem !important;
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+    min-width: 1.8rem !important;
     border-radius: 50% !important;
     object-fit: cover !important;
-    display: block !important;
-    }
+}
