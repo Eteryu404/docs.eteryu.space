@@ -1,10 +1,14 @@
 /* custom background colors */
-
 [data-md-color-scheme="slate"] {
     --md-default-bg-color: hsla(0, 0%, 7%, 1); 
     --md-default-bg-color--light: hsla(0, 0%, 7%, 0.54); 
     --md-default-bg-color--lighter: hsla(0, 0%, 7%, 0.26); 
     --md-default-bg-color--lightest: hsla(0, 0%, 7%, 0.08); 
+}
+
+/* force links to use accent color instead of default blue */
+body {
+    --md-typeset-a-color: var(--md-accent-fg-color) !important;
 }
 
 [data-md-color-scheme="slate"] .md-header {
@@ -28,7 +32,6 @@
 }
 
 /* move level 2 items further out */
-
 .md-nav[data-md-level="2"] > .md-nav__list {
     margin-left: 1.45em;
     padding-left: 0.75em;
@@ -36,7 +39,6 @@
 }
 
 /* colored bar before level 2 items */
-
 .md-nav[data-md-level="2"] > .md-nav__list::before {
     content: "";
     position: absolute;
@@ -64,7 +66,6 @@
 }
 
 /* colored headers */
-
 .md-typeset h1 {
     /* color: var(--md-typeset-a-color); */
     font-weight: 700;
@@ -75,7 +76,6 @@
 }
 
 /* shrink footer */
-
 .md-footer__link {
     margin-bottom: 0 !important;
     margin-top: 0.2rem !important;
