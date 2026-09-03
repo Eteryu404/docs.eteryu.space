@@ -11,24 +11,53 @@ body {
     --md-typeset-a-color: var(--md-accent-fg-color) !important;
 }
 
+/* header styling */
 [data-md-color-scheme="slate"] .md-header {
-    background-color: #1e2029;
-    border-bottom: 0.1rem solid var(--md-accent-fg-color);
+    background: linear-gradient(to bottom, #1e2029 0%, #111111 100%);
+    border-bottom: none;
 }
+
 [data-md-color-scheme="slate"] .md-tabs {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-    background-color: #263f3f;
+    background-color: transparent;
 }
+
 [data-md-color-scheme="default"] .md-header {
     background-color: white;
-    border-bottom: 0.1rem solid var(--md-accent-fg-color);
+    border-bottom: none;
     color: black;
 }
 
 [data-md-color-scheme="default"] .md-tabs {
     color: black;
     background-color: white;
+}
+
+/* subtitle in header */
+.md-header__inner {
+    min-height: 5.6rem;
+}
+
+.md-typeset :target {
+    --md-scroll-margin: 6rem;
+}
+
+.md-header__ellipsis {
+    position: relative;
+}
+
+.md-header__ellipsis::after {
+    content: "Techniczne poradniki dotyczące prywatności i cyberbezpieczeństwa";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 0.65rem;
+    font-weight: 400;
+    line-height: 1;
+    opacity: 0.65;
+    margin-top: 0.3rem;
+    white-space: nowrap;
 }
 
 /* move level 2 items further out */
@@ -65,9 +94,8 @@ body {
     }
 }
 
-/* colored headers */
+/* disabled colored headers, kept bold */
 .md-typeset h1 {
-    /* color: var(--md-typeset-a-color); */
     font-weight: 700;
 }
 
