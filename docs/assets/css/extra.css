@@ -126,36 +126,4 @@ body {
 /* match footer meta background (7% lightness for the very bottom) */
 [data-md-color-scheme="slate"] .md-footer-meta {
     background-color: hsla(var(--md-hue), 15%, 7%, 1);
-}
-
-/* flat design mobile menu (brute-force approach + full height) */
-@media screen and (max-width: 76.25em) {
-    /* target the core sidebar, its overlays and dialog to force zero radius and full height */
-    .md-sidebar.md-sidebar--primary,
-    .md-sidebar.md-sidebar--primary::before,
-    .md-sidebar.md-sidebar--primary::after,
-    .md-sidebar.md-sidebar--primary .md-sidebar__scrollwrap,
-    .md-sidebar.md-sidebar--primary .md-sidebar__inner,
-    .md-sidebar.md-sidebar--primary .md-nav--primary,
-    .md-sidebar.md-sidebar--primary .md-nav__title,
-    .md-dialog[data-md-type="navigation"],
-    .md-dialog[data-md-type="navigation"] .md-dialog__inner {
-        border-radius: 0 !important;
-        -webkit-border-radius: 0 !important;
-        margin: 0 !important;
-        top: 0 !important;
-        bottom: 0 !important;
-        height: 100vh !important;
-        max-height: 100vh !important;
     }
-    
-    /* remove pill-shape from active menu links */
-    .md-nav__link--active {
-        border-radius: 0 !important;
-    }
-    
-    /* reset global theme variables within navigation */
-    .md-sidebar.md-sidebar--primary {
-        --md-border-radius: 0 !important;
-    }
-        }
