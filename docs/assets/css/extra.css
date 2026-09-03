@@ -11,16 +11,16 @@ body {
     --md-typeset-a-color: var(--md-accent-fg-color) !important;
 }
 
-/* header styling */
+/* flat, darker header without accent lines */
 [data-md-color-scheme="slate"] .md-header {
-    background: linear-gradient(to bottom, #1e2029 0%, #111111 100%);
+    background-color: #080808;
     border-bottom: none;
 }
 
 [data-md-color-scheme="slate"] .md-tabs {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
-    background-color: transparent;
+    background-color: #080808;
 }
 
 [data-md-color-scheme="default"] .md-header {
@@ -99,8 +99,9 @@ body {
     font-weight: 700;
 }
 
+/* subtle footer top border instead of pink accent line */
 .md-footer {
-    border-top: 0.1rem solid var(--md-accent-fg-color);
+    border-top: 1px solid var(--md-default-bg-color--lighter);
 }
 
 /* shrink footer */
@@ -114,6 +115,7 @@ body {
     padding: 0 !important;
 }
 
+/* match footer background to the darker header */
 [data-md-color-scheme="slate"] .md-footer-meta {
-    background-color: #141518;
+    background-color: #080808;
 }
