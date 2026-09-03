@@ -128,31 +128,31 @@ body {
     background-color: hsla(var(--md-hue), 15%, 7%, 1);
 }
 
-/* =========================================================
-   CUSTOM LOGO (ukryte w nagłówku, widoczne w menu)
-   ========================================================= */
-/* Całkowicie ukrywamy logo w głównym, górnym pasku */
+/* custom logo */
+/* hide logo in the main header */
 .md-header__button.md-logo {
     display: none !important;
 }
 
-/* Wymuszamy pionowe wyśrodkowanie w nagłówku szuflady */
+/* center items vertically in the drawer title */
 .md-nav__title {
     display: flex !important;
     align-items: center !important;
 }
 
-/* Dodajemy równy odstęp z prawej strony */
+/* strip native padding causing vertical drop, balance horizontal spacing */
 .md-nav__title .md-logo {
-    margin-right: 1rem !important; 
-    margin-bottom: 0 !important; /* Reset na wypadek ukrytych marginesów */
+    margin: 0 1rem 0 0.2rem !important;
+    padding: 0 !important;
+    display: flex !important;
 }
 
-/* Kaczor widoczny i sformatowany w wysuwanej szufladzie */
+/* enforce mobile drawer logo size and circular crop */
 .md-nav__title .md-logo img {
     width: 2.3rem !important;
     height: 2.3rem !important;
     min-width: 2.3rem !important;
     border-radius: 50% !important;
     object-fit: cover !important;
+    display: block !important;
 }
