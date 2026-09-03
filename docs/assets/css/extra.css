@@ -128,19 +128,25 @@ body {
     background-color: hsla(var(--md-hue), 15%, 7%, 1);
 }
 
-/* flat design mobile menu (precise drawer flattening) */
+/* flat design mobile menu (brute-force approach) */
 @media screen and (max-width: 76.25em) {
-    /* target only the inner card of the navigation dialog */
-    .md-dialog[data-md-type="navigation"] .md-dialog__inner {
+    /* target the core sidebar and its children to force zero radius and margins */
+    .md-sidebar.md-sidebar--primary,
+    .md-sidebar.md-sidebar--primary::before,
+    .md-sidebar.md-sidebar--primary::after,
+    .md-sidebar.md-sidebar--primary .md-sidebar__scrollwrap,
+    .md-sidebar.md-sidebar--primary .md-sidebar__inner,
+    .md-sidebar.md-sidebar--primary .md-nav--primary,
+    .md-sidebar.md-sidebar--primary .md-nav__title {
         border-radius: 0 !important;
-        margin: 0 !important;
-        height: 100vh !important;
-        max-height: 100vh !important;
+        -webkit-border-radius: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
     }
     
-    /* ensure navigation background loses border radius */
-    .md-nav--primary,
-    .md-nav--primary .md-nav__title {
-        border-radius: 0 !important;
+    /* reset global theme variables within navigation */
+    .md-sidebar.md-sidebar--primary {
+        --md-border-radius: 0 !important;
     }
 }
