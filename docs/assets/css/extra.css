@@ -1,3 +1,10 @@
+/* ustawienia tła dla schematu slate */
+
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: #16181d; 
+    --md-default-bg-color--light: #1e2128; 
+}
+
 [data-md-color-scheme="slate"] .md-header {
     background-color: #1e2029;
     border-bottom: 0.1rem solid var(--md-accent-fg-color);
@@ -18,7 +25,7 @@
     background-color: white;
 }
 
-/* move level 2 items further out */
+/* przesuń elementy poziomu 2 bardziej na zewnątrz */
 
 .md-nav[data-md-level="2"] > .md-nav__list {
     margin-left: 1.45em;
@@ -26,7 +33,7 @@
     position: relative;
 }
 
-/* colored bar before level 2 items */
+/* kolorowy pasek przed elementami poziomu 2 */
 
 .md-nav[data-md-level="2"] > .md-nav__list::before {
     content: "";
@@ -35,12 +42,7 @@
     left: 0;
     height: 100%;
     width: 1px;
-    background: linear-gradient(
-        to bottom,
-        #21af90 0%,
-        #21af90 50%,
-        #21af90 100%
-    );
+    background: var(--md-accent-fg-color);
 }
 
 @media (max-width: 1220px) {
@@ -54,7 +56,7 @@
     }
 }
 
-/* colored headers */
+/* kolorowe nagłówki */
 
 .md-typeset h1 {
     color: var(--md-typeset-a-color);
@@ -65,7 +67,7 @@
     border-top: 0.1rem solid var(--md-accent-fg-color);
 }
 
-/* shrink footer */
+/* zmniejsz stopkę */
 
 .md-footer__link {
     margin-bottom: 0 !important;
