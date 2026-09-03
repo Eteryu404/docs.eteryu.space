@@ -1,14 +1,11 @@
-/* ===================================================================
-   ZMIANA TŁA DLA GŁÓWNEJ TREŚCI (Tylko tło i pasek boczny - One Dark) 
-=================================================================== */
-body[data-md-color-scheme="slate"],
-body[data-md-color-scheme="slate"] .md-sidebar {
-    background-color: #282c34 !important;
+/* Pełna paleta tła (One Dark) zapobiegająca błędom nakładek */
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: hsla(220, 13%, 18%, 1); 
+    --md-default-bg-color--light: hsla(220, 13%, 18%, 0.54); 
+    --md-default-bg-color--lighter: hsla(220, 13%, 18%, 0.26); 
+    --md-default-bg-color--lightest: hsla(220, 13%, 18%, 0.08); 
 }
 
-/* ===================================================================
-   TWOJE ORYGINALNE STYLE (BEZ ŻADNYCH ZMIAN)
-=================================================================== */
 [data-md-color-scheme="slate"] .md-header {
     background-color: #1e2029;
     border-bottom: 0.1rem solid var(--md-accent-fg-color);
@@ -29,14 +26,14 @@ body[data-md-color-scheme="slate"] .md-sidebar {
     background-color: white;
 }
 
-/* move level 2 items further out */
+/* Przesunięcie elementów drugiego poziomu bardziej na zewnątrz */
 .md-nav[data-md-level="2"] > .md-nav__list {
     margin-left: 1.45em;
     padding-left: 0.75em;
     position: relative;
 }
 
-/* colored bar before level 2 items */
+/* Kolorowy pasek przed elementami drugiego poziomu */
 .md-nav[data-md-level="2"] > .md-nav__list::before {
     content: "";
     position: absolute;
@@ -63,7 +60,7 @@ body[data-md-color-scheme="slate"] .md-sidebar {
     }
 }
 
-/* colored headers */
+/* Kolorowe nagłówki H1 */
 .md-typeset h1 {
     color: var(--md-typeset-a-color);
     font-weight: 700;
@@ -73,7 +70,7 @@ body[data-md-color-scheme="slate"] .md-sidebar {
     border-top: 0.1rem solid var(--md-accent-fg-color);
 }
 
-/* shrink footer */
+/* Zmniejszenie odstępów w stopce */
 .md-footer__link {
     margin-bottom: 0 !important;
     margin-top: 0.2rem !important;
