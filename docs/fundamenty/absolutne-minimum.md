@@ -1,10 +1,15 @@
-# Fundamenty Cyfrowej Higieny: Odzyskaj Kontrolę nad Danymi
+---
+title: Absolutne minimum
+icon: material/shield-half-full
+---
 
-Większość poradników o prywatności w internecie zaczyna się od radykalnych i nierealistycznych działań. Instalacja niszowych systemów operacyjnych, rezygnacja ze smartfona i kasowanie wszystkich kont w mediach społecznościowych to klasyczne przykłady. Efekt takiego podejścia jest łatwy do przewidzenia: przeciętny użytkownik szybko odbija się od ściany i wraca do starych, niebezpiecznych przyzwyczajeń.
+# Fundamenty Cyfrowej Higieny
 
-Tymczasem w cyberbezpieczeństwie doskonale sprawdza się zasada Pareta. Wdrożenie zaledwie dwudziestu procent kluczowych zabezpieczeń skutecznie eliminuje osiemdziesiąt procent realnych zagrożeń. Warto pamiętać, że Twoim głównym przeciwnikiem na ogół nie są wysoce wykwalifikowane służby wywiadowcze. Największe realne ryzyko stanowią zautomatyzowane boty, masowe wycieki z baz danych oraz zorganizowane kampanie phishingowe.
+Większość poradników o prywatności rzuca czytelnika na głęboką wodę: instalacja niszowych systemów, rezygnacja ze smartfona, kasowanie wszystkich kont. Efekt? Szybkie zniechęcenie i powrót do starych, niebezpiecznych nawyków. 
 
-Oto absolutne minimum cyfrowego przetrwania. Wdrożenie tych kilku fundamentów nie wymaga specjalistycznej wiedzy, a natychmiast buduje solidną tarczę ochronną wokół Twoich danych.
+Tymczasem w cyberbezpieczeństwie doskonale sprawdza się zasada Pareta. Wdrożenie zaledwie 20% kluczowych zabezpieczeń skutecznie eliminuje 80% realnych zagrożeń. Twoim głównym przeciwnikiem nie są wysoce wykwalifikowane służby, lecz zautomatyzowane boty, masowe wycieki z baz danych oraz kampanie phishingowe.
+
+Oto absolutne minimum cyfrowego przetrwania. Wdrożenie tych kilku fundamentów nie wymaga wiedzy technicznej, a natychmiast buduje solidną tarczę ochronną wokół Twoich danych.
 
 ---
 
