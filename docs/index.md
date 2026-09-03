@@ -4,19 +4,21 @@ title: Baza wiedzy
 
 # Baza wiedzy Eteryu.space
 
-!!! success "Dokumentacja Evergreen"
-    **Zawartość bazy jest stale rozwijana.** Regularnie dodajemy, aktualizujemy i weryfikujemy poradniki pod kątem zmian w oprogramowaniu.
+!!! success "Fundamenty i dokumentacja Evergreen"
+    **Cyberbezpieczeństwo to proces, a nie gotowy produkt z pudełka.** Zawartość tej bazy jest przeze mnie stale weryfikowana i aktualizowana pod kątem najnowszych wektorów ataków oraz zmian w oprogramowaniu.
 
-Znajdziesz tu praktyczne materiały, utwardzone konfiguracje oraz procedury z zakresu cyfrowej higieny i cyberbezpieczeństwa. Serwis stanowi systematyczne rozszerzenie analiz publikowanych na blogu [eteryu.space](https://eteryu.space) i jest przeznaczony dla każdego, kto chce zadbać o swoją prywatność – od użytkowników domowych po administratorów i pasjonatów wdrażających modele Zero Trust.
+Witaj w oficjalnej bazie wiedzy [eteryu.space](https://eteryu.space). To miejsce stanowi esencję najważniejszych informacji, procedur i utwardzonych konfiguracji z zakresu cyberbezpieczeństwa, prywatności w sieci oraz cyfrowej higieny. 
 
-!!! tip "Jak korzystać z naszych materiałów?"
-    **Gotowe procedury i konfiguracje.** W menu bocznym znajdziesz instrukcje wdrożeniowe krok po kroku. Wszystkie skrypty, polityki oraz polecenia posiadają wbudowany przycisk szybkiego kopiowania do schowka, co ułatwia ich bezpieczne zastosowanie.
+Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji teatru prywatności, natomiast tutaj dostarczam gotowe do wdrożenia rozwiązania. Odrzucam złudzenia i niebezpieczne podejście typu "set and forget". Zamiast tego udostępniam wyłącznie sprawdzone metody realnej redukcji ryzyka. Przejdziesz tu drogę od podstawowego zabezpieczenia smartfona po rygorystyczne modelowanie zagrożeń w oparciu o architekturę Zero Trust.
+
+!!! tip "Jak korzystać z tej bazy?"
+    **Zero czarnej magii, same konkrety.** W menu bocznym umieściłem ustrukturyzowane ścieżki postępowania. Wszystkie skrypty, polityki MDM oraz polecenia systemowe posiadają wbudowany przycisk kopiowania, co znacznie ułatwia ich szybkie i bezbłędne wdrożenie.
     
     [Rozpocznij lekturę](#){ .md-button }
 
 ---
 
-## Wybierz obszar
+## Wybierz obszar dokumentacji
 
 <div class="grid cards" markdown>
 
@@ -24,7 +26,7 @@ Znajdziesz tu praktyczne materiały, utwardzone konfiguracje oraz procedury z za
     
     ---
     
-    Konfiguracja profili systemowych, zarządzanie uprawnieniami Storage Scopes, eliminacja usług Google oraz bezpieczny łańcuch dostaw aplikacji przez Obtainium.
+    Praktyczna implementacja izolowanych profili, zarządzanie uprawnieniami Storage Scopes, eliminacja usług Google oraz bezpieczny łańcuch dostaw aplikacji przez Obtainium.
     
     [:octicons-arrow-right-24: Przejdź do sekcji](#)
 
@@ -32,7 +34,7 @@ Znajdziesz tu praktyczne materiały, utwardzone konfiguracje oraz procedury z za
     
     ---
     
-    Wdrażanie profili MDM, bezpieczne flagi Chromium/Vanadium oraz centralne filtrowanie telemetrii za pomocą prywatnego DNS i RethinkDNS.
+    Odcinanie telemetrii u źródła. Wdrażanie profili MDM, bezpieczne flagi dla Chromium/Vanadium oraz centralne filtrowanie ruchu za pomocą prywatnego DNS i RethinkDNS.
     
     [:octicons-arrow-right-24: Przejdź do sekcji](#)
 
@@ -40,7 +42,7 @@ Znajdziesz tu praktyczne materiały, utwardzone konfiguracje oraz procedury z za
     
     ---
     
-    Modelowanie zagrożeń według metodologii EFF, izolacja aplikacji w profilach roboczych oraz architektura aliasów pocztowych (SimpleLogin / Addy.io).
+    Modelowanie zagrożeń w praktyce. Ochrona głównej tożsamości poprzez izolację usług, architekturę aliasów pocztowych oraz bezpieczne zarządzanie kluczowymi danymi.
     
     [:octicons-arrow-right-24: Przejdź do sekcji](#)
 
@@ -48,7 +50,7 @@ Znajdziesz tu praktyczne materiały, utwardzone konfiguracje oraz procedury z za
     
     ---
     
-    Zweryfikowany katalog aplikacji podzielony na kategorie **[CORE]** (optymalny balans) oraz **[HARDENED]** (maksymalne utwardzenie).
+    Wyselekcjonowany i stale weryfikowany katalog aplikacji. Dzieli się on na narzędzia uniwersalne i zbalansowane **[CORE]** oraz zorientowane na najwyższy rygor bezpieczeństwa **[HARDENED]**.
     
     [:octicons-arrow-right-24: Przejdź do sekcji](#)
 
