@@ -18,12 +18,6 @@ body {
     --md-typeset-a-color: var(--md-accent-fg-color) !important;
 }
 
-/* tabs rounded corners */
-[data-md-color-scheme="slate"] .md-tabs {
-    border-bottom-left-radius: 10px !important;
-    border-bottom-right-radius: 10px !important;
-}
-
 /* subtitle in header */
 .md-header__inner {
     min-height: 5.6rem;
