@@ -1,4 +1,4 @@
-/* ustawienia tła dla schematu slate */
+/* zmienne motywu dracula */
 
 [data-md-color-scheme="slate"] {
     --md-default-bg-color: #282a36; 
@@ -6,16 +6,23 @@
     --md-default-fg-color: #f8f8f2;
 }
 
-/* naprawa menu mobilnego (blur i aktywny element) */
+/* tło i rozmycie menu mobilnego */
 
 .md-overlay {
     background-color: rgba(0, 0, 0, 0.6) !important;
     backdrop-filter: blur(5px) !important;
 }
 
+/* aktywny element menu */
+
 [data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link {
     color: var(--md-accent-fg-color) !important;
-    background-color: transparent !important;
+    background-color: #44475a !important;
+    border-radius: 4px;
+}
+
+[data-md-color-scheme="slate"] .md-nav__item--active > .md-nav__link svg {
+    fill: var(--md-accent-fg-color) !important;
 }
 
 [data-md-color-scheme="slate"] .md-header {
