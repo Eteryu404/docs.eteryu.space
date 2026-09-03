@@ -128,26 +128,20 @@ body {
     background-color: hsla(var(--md-hue), 15%, 7%, 1);
 }
 
-/* flat design mobile menu (aggressive drawer flattening) */
+/* flat design mobile menu (safe version) */
 @media screen and (max-width: 76.25em) {
-    /* main drawer container, sidebar and overlays */
-    .md-sidebar--primary,
-    .md-sidebar--primary > .md-sidebar__scrollwrap,
-    .md-nav--primary,
-    .md-nav--primary > .md-nav__title,
-    .md-dialog,
-    .md-dialog > .md-dialog__inner {
-        border-radius: 0 !important;
+    /* target only the scrollable card to remove radius and margins without breaking position */
+    .md-sidebar--primary .md-sidebar__scrollwrap {
         margin: 0 !important;
-        left: 0 !important;
-        top: 0 !important;
-        bottom: 0 !important;
+        border-radius: 0 !important;
         height: 100vh !important;
-        max-height: 100vh !important;
     }
     
-    /* override main border-radius variables */
     .md-nav {
         --md-border-radius: 0 !important;
     }
-                           }
+    
+    .md-nav__title {
+        border-radius: 0 !important;
+    }
+}
