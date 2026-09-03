@@ -24,6 +24,11 @@
     background-color: white;
 }
 
+/* Naprawa przezroczystości nakładki przy otwartym menu mobilnym */
+[data-md-color-scheme="slate"] .md-overlay {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
 /* move level 2 items further out */
 
 .md-nav[data-md-level="2"] > .md-nav__list {
