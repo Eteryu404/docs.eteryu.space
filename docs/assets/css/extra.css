@@ -120,7 +120,7 @@ body {
 
 /* custom footer spacing and typography */
 .md-copyright {
-    padding: 0 0 0.5rem 0 !important; /* tight gap below text */
+    padding: 1.5rem 0 0.5rem 0 !important; /* generous space above, tight gap below */
     font-size: 0.65rem !important;
 }
 
@@ -166,4 +166,4 @@ body {
     border-radius: 50% !important;
     object-fit: cover !important;
     display: block !important;
-}
+    }
