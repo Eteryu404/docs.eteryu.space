@@ -126,4 +126,21 @@ body {
 /* match footer meta background (7% lightness for the very bottom) */
 [data-md-color-scheme="slate"] .md-footer-meta {
     background-color: hsla(var(--md-hue), 15%, 7%, 1);
-    }
+}
+
+/* custom logo size and shape */
+.md-header__button.md-logo,
+.md-nav__title .md-logo {
+    margin: 0 !important;
+    padding: 0.2rem !important;
+}
+
+/* force specific size and perfect circle */
+.md-header__button.md-logo img,
+.md-nav__title .md-logo img {
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    display: block !important;
+}
