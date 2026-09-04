@@ -88,7 +88,7 @@ icon: material/view-list
     
     [➔ Przejdź do strony](https://quad9.net/)
 
--   :material-server-shield: **AdGuard DNS**
+-   :material-security: **AdGuard DNS**
     
     ---
     
