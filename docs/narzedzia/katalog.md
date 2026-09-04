@@ -175,6 +175,9 @@ icon: lucide/list
     
     Uniwersalny i chmurowy menedżer haseł oferujący bezpieczną synchronizację. Umożliwia postawienie własnej instancji serwerowej.
     
+    !!! warning "Higiena metadanych i wybór paczki"
+        Standardowa kompilacja (w tym ta z Google Play) zawiera biblioteki telemetrii (np. Firebase). Przy instalacji z GitHuba (np. przez Obtainium) należy upewnić się, że pobierana jest wersja pliku APK w wariancie FOSS, która jest całkowicie wyczyszczona z modułów śledzących.
+    
     [➔ Przejdź do repozytorium](https://github.com/bitwarden/android)
 
 -   :material-two-factor-authentication: **Aegis**
@@ -251,7 +254,10 @@ icon: lucide/list
     
     Potężny edytor oparty na plikach lokalnych. Używany w modelu Zero Trust z całkowicie zablokowanym dostępem do sieci i wyizolowaną pamięcią.
     
-    [➔ Przejdź do repozytorium](https://github.com/obsidianmd/obsidian-releases)
+    !!! warning "Zamknięty kod źródłowy"
+        Obsidian to oprogramowanie komercyjne (Proprietary). Pomimo faktu, że pliki przechowywane są w 100% lokalnie, sam kod nie podlega publicznym audytom bezpieczeństwa FOSS, a darmowa licencja wyklucza użycie firmowe.
+    
+    [➔ Przejdź do strony](https://obsidian.md/)
 
 -   :material-note-edit: **Quillpad**
     
@@ -462,6 +468,9 @@ icon: lucide/list
     ---
     
     Utwardzona klawiatura wyposażona w zaawansowany moduł przetwarzania głosu działający całkowicie lokalnie i offline.
+    
+    !!! info "Licencja typu Source-Available"
+        Aplikacja udostępnia kod do pełnego wglądu, jednak ze względu na ograniczenia licencyjne nałożone przez FUTO, nie spełnia klasycznej definicji wolnego oprogramowania (FOSS).
     
     [➔ Przejdź do repozytorium](https://github.com/futo-org/android-keyboard)
 
