@@ -12,8 +12,8 @@ extra_css = ["assets/css/extra.css"]
 # manual navigation menu
 nav = [
     { "Baza wiedzy" = "index.md" },
-    { "Kategoria testowa" = [
-        "kategoria-testowa/test.md"
+    { "Fundamenty" = [
+        "fundamenty/absolutne-minimum.md"
     ]}
 ]
 
