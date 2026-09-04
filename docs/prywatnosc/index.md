@@ -1,5 +1,5 @@
 ---
-icon: material/incognito
+icon: lucide/fingerprint
 ---
 
 # Prywatność i tożsamość
