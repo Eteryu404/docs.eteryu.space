@@ -9,7 +9,7 @@ copyright = "Copyright &copy; 2026 Eteryu"
 # custom styles
 extra_css = ["assets/css/extra.css"]
 
-# manual navigation menu (to omija automatyczny generator i zabija Incepcję!)
+# manual navigation menu
 nav = [
     { "Baza wiedzy" = "index.md" },
     { "Kategoria testowa" = [
@@ -29,15 +29,12 @@ features = [
     "content.code.copy",
     "content.code.select",
     "content.footnote.tooltips",
-    "content.tabs.link",
     "content.tooltips",
     "navigation.footer",
     "navigation.instant",
     "navigation.instant.prefetch",
     "navigation.instant.progress",
     "navigation.path",
-    "navigation.sections",
-    "navigation.tabs",
     "navigation.top",
     "navigation.tracking",
     "search.highlight",
