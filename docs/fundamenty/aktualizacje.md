@@ -1,4 +1,5 @@
 ---
+title: Rygorystyczne aktualizacje
 icon: material/update
 ---
 
