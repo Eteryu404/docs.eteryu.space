@@ -6,6 +6,9 @@ site_author = "Eteryu"
 site_url = "https://docs.eteryu.space"
 copyright = "Copyright &copy; 2026 Eteryu"
 
+# custom styles
+extra_css = ["assets/css/extra.css"]
+
 # manual navigation menu (overrides automatic folder scanning)
 nav = [
     { "Baza wiedzy" = "index.md" },
@@ -13,9 +16,6 @@ nav = [
         { "Absolutne minimum" = "fundamenty/absolutne-minimum.md" }
     ]}
 ]
-
-# custom styles
-extra_css = ["assets/css/extra.css"]
 
 # theme settings
 [project.theme]
@@ -36,7 +36,8 @@ features = [
     "navigation.instant.prefetch",
     "navigation.instant.progress",
     "navigation.path",
-    "navigation.prune",
+    "navigation.sections",
+    "navigation.tabs",
     "navigation.top",
     "navigation.tracking",
     "search.highlight",
