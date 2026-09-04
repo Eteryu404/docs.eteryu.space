@@ -1,6 +1,6 @@
 ---
 title: Katalog oprogramowania
-icon: material/view-list
+icon: lucide/list
 ---
 
 # Katalog oprogramowania 
