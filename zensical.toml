@@ -23,7 +23,8 @@ nav = [
     ]},
     { "Narzędzia" = [
         "narzedzia/index.md",
-        "narzedzia/katalog.md"
+        "narzedzia/katalog.md",
+        "narzedzia/wybor-przegladarki.md"
     ]}
 ]
 
