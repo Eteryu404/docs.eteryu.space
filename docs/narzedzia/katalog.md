@@ -70,10 +70,13 @@ icon: material/view-list
     
     ---
     
-    Utwardzona przeglądarka oferująca najwyższy poziom izolacji oraz błyskawiczne łatki Zero Day. Wymaga rygorystycznej konfiguracji blokującej telemetrię.
+    Przeglądarka o zaawansowanej architekturze bezpieczeństwa, oferująca najwyższy poziom izolacji procesów (sandbox) oraz błyskawiczne łatki Zero Day.
+    
+    !!! danger "Krytyczny wymóg"
+        Przeglądarka wymaga rygorystycznej konfiguracji (Hardening) w celu zablokowania wbudowanej telemetrii.
     
     [➔ Przejdź do repozytorium](https://github.com/chromium/chromium)
-
+    
 </div>
 
 ## Sieć i bezpieczeństwo
