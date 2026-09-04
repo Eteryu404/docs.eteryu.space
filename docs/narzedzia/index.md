@@ -10,7 +10,7 @@ Ta sekcja bazy wiedzy skupia się na praktycznym wykorzystaniu narzędzi open so
 
 <div class="grid cards" markdown>
 
--   :material-view-list: **Katalog oprogramowania FOSS**
+-   :lucide-list: **Katalog oprogramowania FOSS**
     
     ---
     
@@ -18,7 +18,15 @@ Ta sekcja bazy wiedzy skupia się na praktycznym wykorzystaniu narzędzi open so
     
     [➔ Przejdź do katalogu](katalog.md)
 
--   :material-shield-check: **Weryfikacja podpisów cyfrowych**
+-   :lucide-globe-lock: **Wybór przeglądarki**
+    
+    ---
+    
+    Architektura przeglądarek i rygorystyczne kryteria wyboru oprogramowania pozwalającego zminimalizować ryzyko profilowania.
+    
+    [➔ Przejdź do artykułu](wybor-przegladarki.md)
+
+-   :lucide-shield-check: **Weryfikacja podpisów cyfrowych**
     
     ---
     
