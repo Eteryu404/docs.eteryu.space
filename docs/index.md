@@ -22,7 +22,7 @@ Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdro
 
 <div class="grid cards" markdown>
 
--   :lucide/shield-half: **Fundamenty cyfrowe**
+-   :lucide-shield-half: **Fundamenty cyfrowe**
     
     ---
     
@@ -30,7 +30,7 @@ Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdro
     
     [➔ Przejdź do sekcji](fundamenty/index.md)
 
--   :lucide/fingerprint: **Prywatność i tożsamość**
+-   :lucide-fingerprint: **Prywatność i tożsamość**
     
     ---
     
@@ -38,7 +38,7 @@ Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdro
     
     [➔ Przejdź do sekcji](prywatnosc/index.md)
 
--   :lucide/boxes: **Narzędzia i oprogramowanie**
+-   :lucide-boxes: **Narzędzia i oprogramowanie**
     
     ---
     
@@ -46,7 +46,7 @@ Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdro
     
     [➔ Przejdź do katalogu](narzedzia/index.md)
 
--   :material-security: **Zaawansowana ochrona**
+-   :lucide-shield-check: **Zaawansowana ochrona**
     
     ---
     
