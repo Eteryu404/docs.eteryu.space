@@ -3,7 +3,7 @@
 site_name = "Baza wiedzy Eteryu.space"
 site_description = "Baza wiedzy i techniczne poradniki dotyczące prywatności i cyberbezpieczeństwa."
 site_author = "Eteryu"
-site_url = "https://docs.eteryu.space"
+site_url = "https://eteryu.space"
 copyright = "Copyright &copy; 2026 Eteryu"
 
 # custom styles
