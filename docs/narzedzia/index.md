@@ -10,7 +10,7 @@ Ta sekcja bazy wiedzy skupia się na praktycznym wykorzystaniu narzędzi open so
 
 <div class="grid cards" markdown>
 
--   :lucide-list: **Katalog oprogramowania FOSS**
+-   :lucide-list: **Katalog oprogramowania**
     
     ---
     
