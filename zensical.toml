@@ -9,11 +9,11 @@ copyright = "Copyright &copy; 2026 Eteryu"
 # custom styles
 extra_css = ["assets/css/extra.css"]
 
-# manual navigation menu (overrides automatic folder scanning)
+# manual navigation menu
 nav = [
     { "Baza wiedzy" = "index.md" },
     { "Fundamenty" = [
-        { "Absolutne minimum" = "fundamenty/absolutne-minimum.md" }
+        "fundamenty/absolutne-minimum.md"
     ]}
 ]
 
@@ -36,8 +36,8 @@ features = [
     "navigation.instant.prefetch",
     "navigation.instant.progress",
     "navigation.path",
-    # "navigation.sections",
-    # "navigation.tabs",
+    "navigation.sections",
+    "navigation.tabs",
     "navigation.top",
     "navigation.tracking",
     "search.highlight",
