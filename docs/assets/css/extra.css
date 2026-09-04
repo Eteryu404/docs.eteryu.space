@@ -145,21 +145,21 @@ body {
     display: none !important;
 }
 
-/* center items vertically in the drawer title */
-.md-nav__title {
+/* center items vertically only in the main drawer title */
+.md-nav__title[for="__drawer"] {
     display: flex !important;
     align-items: center !important;
 }
 
 /* strip native padding causing vertical drop, balance horizontal spacing */
-.md-nav__title .md-logo {
+.md-nav__title[for="__drawer"] .md-logo {
     margin: -0.6rem 1.25rem 0 0.2rem !important;
     padding: 0 !important;
     display: flex !important;
 }
 
 /* enforce mobile drawer logo size and circular crop */
-.md-nav__title .md-logo img {
+.md-nav__title[for="__drawer"] .md-logo img {
     width: 2.3rem !important;
     height: 2.3rem !important;
     min-width: 2.3rem !important;
