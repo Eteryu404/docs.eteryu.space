@@ -16,7 +16,7 @@ Niniejsza platforma to niezależne, ustrukturyzowane kompendium wiedzy z zakresu
 Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdrożenia. Dokumentacja oferuje przejrzyste instrukcje konfiguracji oraz rekomendacje zweryfikowanego oprogramowania umożliwiając każdemu użytkownikowi świadome budowanie bezpiecznego środowiska cyfrowego.
 
 !!! info "Architektura ekosystemu"
-    To kompendium stanowi główny rdzeń operacyjny projektu. Z kolei [blog Eteryu.space](https://eteryu.space/) pełni funkcję analityczną i publicystyczną. Podczas gdy blog dostarcza dogłębnych analiz systemów, raportów o zagrożeniach oraz szerszego kontekstu architektonicznego, niniejsza dokumentacja agreguje wyłącznie twarde i gotowe do wdrożenia procedury.
+    To kompendium stanowi główny rdzeń operacyjny projektu. Z kolei [blog Eteryu.space](https://blog.eteryu.space/) pełni funkcję analityczną i publicystyczną. Podczas gdy blog dostarcza dogłębnych analiz systemów, raportów o zagrożeniach oraz szerszego kontekstu architektonicznego, niniejsza dokumentacja agreguje wyłącznie twarde i gotowe do wdrożenia procedury.
 
 ## Wybierz obszar
 
