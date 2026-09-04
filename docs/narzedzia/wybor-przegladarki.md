@@ -53,7 +53,7 @@ Nasze zestawienie ogranicza się do zaledwie kilku projektów. Ignorujemy popula
 ### :material-google-chrome: Google Chrome
 Punkt odniesienia dla wszystkich innych projektów. Chrome dysponuje absolutnie najszybszym cyklem aktualizacji oraz najbardziej dopracowaną architekturą izolacji procesów. Jest to oprogramowanie oferujące najwyższy poziom odporności na eksploity. Zamknięty kod źródłowy nie wpływa negatywnie na jego bezpieczeństwo jednak przeglądarka ta wymaga rygorystycznej konfiguracji ręcznej w celu wyłączenia wbudowanej telemetrii.
 
-### :material-shield: Vanadium
+### :material-shield-search: Vanadium
 Prawdopodobnie najbezpieczniejsza przeglądarka na rynku dostępna wyłącznie dla środowiska GrapheneOS. Oferuje ekstremalne utwardzenie kodu oraz zaawansowaną ochronę pamięci deklasując standardowe rozwiązania mobilne. Cykl aktualizacji jest wysoce rygorystyczny i spójny z wydaniami Chromium.
 
 ### :fontawesome-brands-brave: Brave
