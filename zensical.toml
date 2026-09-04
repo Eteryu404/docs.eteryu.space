@@ -16,6 +16,10 @@ nav = [
         "fundamenty/index.md",
         "fundamenty/aktualizacje.md",
         "fundamenty/bezpieczny-dns.md"
+    ]},
+    { "Prywatność i tożsamość" = [
+        "prywatnosc/index.md",
+        "prywatnosc/aliasy.md"
     ]}
 ]
 
