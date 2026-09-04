@@ -1,6 +1,6 @@
 ---
 title: Rygorystyczne aktualizacje
-icon: material/update
+icon: lucide/refresh-cw
 ---
 
 # Rygorystyczne aktualizacje
