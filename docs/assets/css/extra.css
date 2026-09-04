@@ -55,7 +55,7 @@ body {
 }
 
 .md-header__ellipsis::after {
-    content: "Techniczne poradniki dotyczące prywatności i cyberbezpieczeństwa";
+    content: "Baza wiedzy dotycząca prywatności i cyberbezpieczeństwa";
     position: absolute;
     top: 100%;
     left: 0;
