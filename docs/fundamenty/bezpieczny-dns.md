@@ -1,4 +1,5 @@
 ---
+title: Bezpieczny DNS
 icon: material/dns
 ---
 
