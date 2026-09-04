@@ -1,5 +1,5 @@
 ---
-icon: material/shield-half-full
+icon: lucide/shield-half
 ---
 
 # Fundamenty cyfrowej higieny
