@@ -1,11 +1,6 @@
 ---
 title: Wybór przeglądarki
 icon: lucide/globe-lock
-tags:
-  - architektura
-  - przegladarki
-  - hardening
-  - prywatnosc
 ---
 
 # Architektura przeglądarek i kryteria wyboru
