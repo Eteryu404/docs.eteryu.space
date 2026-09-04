@@ -3,10 +3,10 @@ title: Katalog oprogramowania
 icon: material/view-list
 ---
 
-# Katalog oprogramowania FOSS
+# Katalog oprogramowania 
 
 !!! abstract "Cel artykułu"
-    Katalog zawiera rygorystycznie wyselekcjonowane oprogramowanie o otwartym kodzie źródłowym. Narzędzia te stanowią fundament budowy architektury Zero Trust oraz skutecznej minimalizacji cyfrowego śladu.
+    Katalog zawiera rygorystycznie wyselekcjonowane narzędzia cyfrowe zorientowane na prywatność. Zestawienie obejmuje aplikacje otwartoźródłowe, rozwiązania z dostępnym kodem do wglądu oraz w pełni lokalne środowiska zamknięte. Narzędzia te stanowią fundament budowy architektury Zero Trust oraz skutecznej minimalizacji cyfrowego śladu.
 
 ## Zarządzanie aplikacjami
 
@@ -36,7 +36,7 @@ icon: material/view-list
     
     [➔ Przejdź do repozytorium](https://github.com/kurikomi-labs/komi-store)
 
--   :material-store-lock: **Accrescent**
+-   :material-lock: **Accrescent**
     
     ---
     
@@ -50,7 +50,7 @@ icon: material/view-list
 
 <div class="grid cards" markdown>
 
--   :material-web-secure: **Vanadium**
+-   :material-shield-search: **Vanadium**
     
     ---
     
@@ -88,7 +88,7 @@ icon: material/view-list
     
     [➔ Przejdź do strony](https://quad9.net/)
 
--   :material-shield-network: **AdGuard DNS**
+-   :material-server-shield: **AdGuard DNS**
     
     ---
     
@@ -170,7 +170,7 @@ icon: material/view-list
     
     ---
     
-    Uniwersalny, otwarty i chmurowy menedżer haseł oferujący bezpieczną synchronizację. Umożliwia postawienie własnej instancji serwerowej.
+    Uniwersalny i chmurowy menedżer haseł oferujący bezpieczną synchronizację. Umożliwia postawienie własnej instancji serwerowej.
     
     [➔ Przejdź do repozytorium](https://github.com/bitwarden/android)
 
@@ -204,7 +204,7 @@ icon: material/view-list
 
 <div class="grid cards" markdown>
 
--   :material-message-secure: **Molly**
+-   :material-message-lock: **Molly**
     
     ---
     
@@ -212,7 +212,7 @@ icon: material/view-list
     
     [➔ Przejdź do repozytorium](https://github.com/mollyim/mollyim-android)
 
--   :material-email-secure: **Tuta Mail**
+-   :material-email-check: **Tuta Mail**
     
     ---
     
@@ -330,7 +330,7 @@ icon: material/view-list
     
     ---
     
-    Dojrzały klient do synchronizacji plików z dostępnym publicznie kodem źródłowym Source Available oraz silnym szyfrowaniem po stronie klienta.
+    Dojrzały klient do synchronizacji plików z dostępnym kodem do wglądu oraz silnym szyfrowaniem po stronie klienta.
     
     [➔ Przejdź do repozytorium](https://github.com/meganz/android)
 
@@ -366,7 +366,7 @@ icon: material/view-list
     
     ---
     
-    Uniwersalna i otwarta alternatywa dla rozwiązań komercyjnych oferująca bezpieczne przechowywanie multimediów z szyfrowaniem end to end.
+    Uniwersalna alternatywa dla rozwiązań komercyjnych oferująca bezpieczne przechowywanie multimediów z szyfrowaniem end to end.
     
     [➔ Przejdź do repozytorium](https://github.com/ente/ente)
 
