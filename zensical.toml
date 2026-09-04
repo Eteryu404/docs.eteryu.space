@@ -13,7 +13,7 @@ extra_css = ["assets/css/extra.css"]
 nav = [
     { "Baza wiedzy" = "index.md" },
     { "Fundamenty" = [
-        "fundamenty/absolutne-minimum.md"
+        "fundamenty/index.md"
     ]}
 ]
 
