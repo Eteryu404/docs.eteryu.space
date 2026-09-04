@@ -9,11 +9,11 @@ hide:
 # Baza wiedzy Eteryu.space
 
 !!! success "Ciągły audyt i weryfikacja procedur"
-    Cyberbezpieczeństwo nie jest stanem docelowym lecz procesem. Zawartość tej platformy podlega rygorystycznym audytom pod kątem najnowszych wektorów ataków, zmian w architekturze oprogramowania oraz ewolucji modelu Zero Trust.
+    Cyberbezpieczeństwo nie jest stanem docelowym, lecz procesem. Zawartość tej platformy podlega cyklicznym audytom pod kątem najnowszych wektorów ataków, zmian w architekturze oprogramowania oraz ewolucji modelu Zero Trust.
 
-Niniejsza platforma to niezależne, ustrukturyzowane kompendium wiedzy z zakresu higieny cyfrowej oraz cyberbezpieczeństwa. Jej głównym celem jest dostarczanie obiektywnych, pozbawionych marketingowego szumu i najbardziej rygorystycznych procedur pozwalających na odzyskanie pełnej kontroli nad własną technologią.
+Niniejsza platforma to niezależne, ustrukturyzowane kompendium wiedzy z zakresu higieny cyfrowej, **zbudowane wokół bezpieczeństwa urządzeń mobilnych**. Jej głównym celem jest dostarczanie obiektywnych, pozbawionych marketingowego szumu i sprawdzonych procedur pozwalających na odzyskanie pełnej kontroli nad własną technologią – **przede wszystkim w ekosystemach Android oraz iOS**.
 
-Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdrożenia. Dokumentacja oferuje przejrzyste instrukcje konfiguracji oraz rekomendacje zweryfikowanego oprogramowania umożliwiając każdemu użytkownikowi świadome budowanie bezpiecznego środowiska cyfrowego.
+Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdrożenia. Dokumentacja oferuje przejrzyste instrukcje konfiguracji oraz rekomendacje zweryfikowanego oprogramowania, umożliwiając każdemu użytkownikowi świadome budowanie bezpiecznego środowiska, ze szczególnym uwzględnieniem smartfona jako głównego centrum dowodzenia.
 
 !!! info "Architektura projektu"
     To kompendium stanowi główny rdzeń operacyjny projektu. Z kolei [blog Eteryu.space](https://blog.eteryu.space/) pełni funkcję analityczną i publicystyczną. Podczas gdy blog dostarcza dogłębnych analiz systemów, raportów o zagrożeniach oraz szerszego kontekstu architektonicznego, niniejsza dokumentacja agreguje wyłącznie twarde i gotowe do wdrożenia procedury.
@@ -42,7 +42,7 @@ Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdro
     
     ---
     
-    Rygorystycznie wyselekcjonowany katalog zweryfikowanego oprogramowania, stanowiący fundament do budowy stabilnego i wyizolowanego środowiska pracy.
+    Wyselekcjonowany katalog zweryfikowanego oprogramowania, stanowiący fundament do budowy stabilnego i wyizolowanego środowiska pracy.
     
     [➔ Przejdź do katalogu](narzedzia/index.md)
 
@@ -50,7 +50,7 @@ Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdro
     
     ---
     
-    Rygorystyczne utwardzanie urządzeń. Konfiguracja zaawansowanych uprawnień, fizyczne klucze zabezpieczeń oraz praktyczne mechanizmy izolacji aplikacji.
+    Utwardzanie urządzeń mobilnych (Hardening). Konfiguracja zaawansowanych uprawnień, fizyczne klucze zabezpieczeń oraz praktyczne mechanizmy izolacji aplikacji (Android / iOS).
     
     *➔ W przygotowaniu*
 
