@@ -5,6 +5,9 @@ icon: lucide/key
 
 # Menedżer haseł
 
+!!! abstract "Cel artykułu"
+    Wdrożenie technicznej procedury zarządzania poświadczeniami. Dokument definiuje sprawdzoną architekturę menedżerów haseł, zasady inżynierii frazy hasłowej oraz taktykę kategoryzacji wpisów (3 Tier System), skutecznie eliminując podatność na ataki wykorzystujące dane z masowych wycieków.
+
 Ewakuacja pamięci i automatyzacja zarządzania poświadczeniami to absolutny fundament cyfrowej higieny oraz pierwszy krok do wdrożenia architektury Zero Trust. Ludzki mózg nie jest przystosowany do generowania, a tym bardziej bezpiecznego przechowywania kilkudziesięciu unikalnych ciągów kryptograficznych.
 
 !!! danger "Krytyczny wektor ataku: Credential Stuffing"
