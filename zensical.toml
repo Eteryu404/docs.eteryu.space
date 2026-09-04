@@ -7,7 +7,7 @@ site_url = "https://docs.eteryu.space"
 copyright = "Copyright &copy; 2026 Eteryu"
 
 # custom styles
-extra_css = ["assets/css/extra.css"]
+# extra_css = ["assets/css/extra.css"]
 
 # manual navigation menu
 nav = [
