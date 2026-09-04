@@ -1,8 +1,3 @@
----
-title: Absolutne minimum
-icon: material/shield-half-full
----
-
 # Fundamenty Cyfrowej Higieny
 
 Większość poradników o prywatności rzuca czytelnika na głęboką wodę. Wymagają instalacji niszowych systemów operacyjnych, rezygnacji ze smartfona i kasowania wszystkich kont. Efekt jest zawsze ten sam: szybkie zniechęcenie i powrót do starych oraz niebezpiecznych nawyków. 
