@@ -5,34 +5,19 @@ hide:
   - toc
 ---
 
-# Baza Wiedzy Eteryu.space
+# Baza wiedzy Eteryu.space
 
-Witaj w centralnym repozytorium wiedzy. To miejsce zostało stworzone, aby dostarczyć Ci konkretne, sprawdzone i techniczne poradniki z zakresu **prywatności i cyberbezpieczeństwa**. 
+!!! success "Fundamenty i dokumentacja Evergreen"
+    **Cyberbezpieczeństwo to proces, a nie gotowy produkt z pudełka.**
+    Zawartość tej bazy jest przeze mnie stale weryfikowana i aktualizowana pod kątem najnowszych wektorów ataków oraz zmian w oprogramowaniu.
 
-Naszym głównym celem jest pomoc w odzyskaniu kontroli nad Twoją cyfrową tożsamością i zabezpieczenie Twojego cyfrowego życia – bez zbędnego żargonu, za to z naciskiem na praktykę i wdrażanie realnych rozwiązań.
+Witaj w oficjalnej bazie wiedzy [eteryu.space](https://eteryu.space). To miejsce stanowi esencję najważniejszych informacji, procedur i utwardzonych konfiguracji z zakresu cyberbezpieczeństwa, prywatności w sieci oraz cyfrowej higieny.
 
-Wybierz interesującą Cię kategorię, aby rozpocząć lekturę:
+Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji teatru prywatności, natomiast tutaj dostarczam gotowe do wdrożenia rozwiązania. Odrzucam złudzenia i niebezpieczne podejście typu "set and forget". Zamiast tego udostępniam wyłącznie sprawdzone metody realnej redukcji ryzyka. Przejdziesz tu drogę od podstawowego zabezpieczenia smartfona po rygorystyczne modelowanie zagrożeń w oparciu o architekturę Zero Trust.
 
-<div class="grid cards" markdown>
+!!! abstract "Jak korzystać z tej bazy?"
+    **Zero czarnej magii, same konkrety.** W menu bocznym umieściłem ustrukturyzowane ścieżki postępowania. Wszystkie skrypty, polityki MDM oraz polecenia systemowe posiadają wbudowany przycisk kopiowania, co znacznie ułatwia ich szybkie i bezbłędne wdrożenie.
 
--   :material-shield-half-full: **Fundamenty (W budowie)**
-    
-    Absolutne minimum cyfrowego przetrwania. Zbiór najważniejszych i podstawowych zasad, od których każdy powinien zacząć swoją drogę do bezpiecznego życia w sieci.
-    
-    [Rozpocznij naukę ➔](kategoria-testowa/test.md)
-
--   :material-incognito: **Prywatność (Wkrótce)**
-    
-    Jak skutecznie chronić swoje dane przed wszechobecną inwigilacją. Zaawansowane techniki konfiguracji, alternatywne aplikacje i bezpieczna komunikacja.
-    
-    [Kategoria w przygotowaniu ➔](#)
-
--   :material-security: **Cyberbezpieczeństwo (Wkrótce)**
-    
-    Techniczne aspekty zabezpieczania sieci, urządzeń końcowych oraz serwerów. Analiza zagrożeń, utwardzanie systemów (hardening) i modelowanie ryzyka.
-    
-    [Kategoria w przygotowaniu ➔](#)
-
-</div>
-
-> **Nota:** Baza wiedzy jest obecnie w fazie aktywnej przebudowy i restrukturyzacji. Nowe materiały będą dodawane sukcesywnie.
+    <br>
+    [Rozpocznij lekturę](kategoria-testowa/test.md){ .md-button }
+---
