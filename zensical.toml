@@ -9,14 +9,6 @@ copyright = "Copyright &copy; 2026 Eteryu"
 # custom styles
 extra_css = ["assets/css/extra.css"]
 
-# manual navigation menu
-nav = [
-    { "Baza wiedzy" = "index.md" },
-    { "Fundamenty" = [
-        "fundamenty/absolutne-minimum.md"
-    ]}
-]
-
 # theme settings
 [project.theme]
 logo = "assets/img/1552167043208769.png"
@@ -29,12 +21,20 @@ features = [
     "content.code.copy",
     "content.code.select",
     "content.footnote.tooltips",
+    "content.tabs.link",
     "content.tooltips",
     "navigation.footer",
+    "navigation.indexes",
+    "navigation.instant",
+    "navigation.instant.prefetch",
+    "navigation.instant.progress",
+    "navigation.path",
+    "navigation.sections",
+    "navigation.tabs",
     "navigation.top",
     "navigation.tracking",
     "search.highlight",
-    "toc.follow"
+    "toc.follow",
 ]
 
 # color palette (dark/light mode toggles)
