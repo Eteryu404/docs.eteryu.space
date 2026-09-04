@@ -18,6 +18,14 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
     
     [➔ Przejdź do artykułu](aktualizacje.md)
 
+-   :lucide-key: **Menedżer haseł**
+    
+    ---
+    
+    Generowanie unikalnych ciągów znaków, ewakuacja pamięci i bezpieczne zarządzanie poświadczeniami logowania.
+    
+    [➔ Przejdź do artykułu](menedzer-hasel.md)
+
 -   :lucide-server: **Filtrowanie ruchu na poziomie DNS**
     
     ---
@@ -25,14 +33,6 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
     Jak wykorzystać zaufane serwery DNS do skutecznego blokowania telemetrii, reklam oraz złośliwych domen w całej sieci.
     
     [➔ Przejdź do artykułu](bezpieczny-dns.md)
-
--   :lucide-key: **Wdrożenie menedżera haseł**
-    
-    ---
-    
-    Generowanie unikalnych ciągów znaków, ewakuacja pamięci i bezpieczne zarządzanie poświadczeniami logowania.
-    
-    *➔ W przygotowaniu*
 
 -   :lucide-smartphone: **Uwierzytelnianie dwuskładnikowe (2FA)**
     
