@@ -20,6 +20,10 @@ nav = [
     { "Prywatność i tożsamość" = [
         "prywatnosc/index.md",
         "prywatnosc/aliasy.md"
+    ]},
+    { "Narzędzia" = [
+        "narzedzia/index.md",
+        "narzedzia/katalog.md"
     ]}
 ]
 
