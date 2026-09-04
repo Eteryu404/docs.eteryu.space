@@ -35,7 +35,10 @@ Trzeci aspekt to funkcje dodatkowe oraz bezpieczne ustawienia domyślne. Obejmuj
 
 Ochrona przed profilowaniem jest niezwykle trudna do poprawnego wdrożenia. Większość wbudowanych mechanizmów losowania danych jedynie wyróżnia użytkownika na tle populacji tworząc jeszcze bardziej unikalny profil cyfrowy. 
 
-Dodatkowo popularna praktyka korzystania z wielu przeglądarek w celu separacji tożsamości to wyłącznie teatr prywatności. Zwiększa to jedynie powierzchnię ataku i wymusza zaufanie do wielu różnych architektur. Znacznie bezpieczniejszym i skuteczniejszym podejściem jest korzystanie z wbudowanego menedżera profili w ramach jednej sprawdzonej przeglądarki. Skuteczna ochrona przed profilowaniem wymaga dedykowanych rozwiązań takich jak Tor Browser izolowany w maszynie wirtualnej.
+!!! warning "Zagrożenie architektoniczne"
+    Popularna praktyka korzystania z wielu przeglądarek w celu separacji tożsamości to wyłącznie teatr prywatności. Zwiększa to jedynie powierzchnię ataku i wymusza zaufanie do wielu różnych architektur. Znacznie bezpieczniejszym i skuteczniejszym podejściem jest korzystanie z wbudowanego menedżera profili w ramach jednej sprawdzonej przeglądarki.
+
+Skuteczna ochrona przed profilowaniem wymaga dedykowanych rozwiązań takich jak Tor Browser izolowany w maszynie wirtualnej.
 
 ## Blokowanie treści i reklam
 
@@ -43,7 +46,10 @@ Skuteczne filtrowanie zapytań można zrealizować na trzy główne sposoby z kt
 
 *   **Rozszerzenia przeglądarki:** Tradycyjne rozszerzenia w standardzie Manifest V2 stanowią poważne zagrożenie dla izolacji witryn ponieważ posiadają pełny dostęp do wszystkich stron i ich zawartości. Rozwiązaniem akceptowalnym architektonicznie jest standard Manifest V3. Rozszerzenia takie jak uBlock Origin Lite w trybie podstawowym blokują niechciane treści bez żądania uprawnień do odczytu danych co znacznie redukuje ryzyko. Należy pamiętać że zdalnie aktualizowane listy filtrów w starych rozszerzeniach mogą wykonywać arbitralny kod w postaci skryptów co stanowi bezpośrednie zagrożenie.
 *   **Rozwiązania natywne:** Najbezpieczniejszym podejściem jest użycie wbudowanego filtra zasobów silnika Chromium wykorzystywanego przez Vanadium oraz Trivalent. Metoda ta zachowuje pełne bezpieczeństwo ponieważ nie dodaje żadnego obcego kodu do przeglądarki. Z kolei integracja zewnętrznych silników filtrujących tak jak ma to miejsce w Brave zwiększa ogólną powierzchnię ataku.
-*   **Filtrowanie sieciowe i DNS:** Metoda ta jest bezapelacyjnie najbezpieczniejsza ale oferuje najmniejszą precyzję. Pozwala wyłącznie na blokowanie całych domen ignorując precyzyjne ścieżki wewnątrz witryn. Zawsze zaleca się stosowanie szyfrowanego protokołu DNS z filtrowaniem jako bazowej warstwy obronnej ponieważ nie wpływa to negatywnie na wydajność urządzenia. Należy bezwzględnie unikać lokalnych systemów inspekcji HTTPS które przechwytują szyfrowany ruch za pomocą własnych certyfikatów.
+*   **Filtrowanie sieciowe i DNS:** Metoda ta jest bezapelacyjnie najbezpieczniejsza ale oferuje najmniejszą precyzję. Pozwala wyłącznie na blokowanie całych domen ignorując precyzyjne ścieżki wewnątrz witryn. Zawsze zaleca się stosowanie szyfrowanego protokołu DNS z filtrowaniem jako bazowej warstwy obronnej ponieważ nie wpływa to negatywnie na wydajność urządzenia.
+    
+    !!! danger "Krytyczne ryzyko bezpieczeństwa"
+        Należy bezwzględnie unikać lokalnych systemów inspekcji HTTPS które przechwytują szyfrowany ruch za pomocą własnych certyfikatów. Rozwiązania te łamią podstawową strukturę szyfrowania i wymuszają zaufanie względem zewnętrznego oprogramowania.
 
 ## Dlaczego te konkretne narzędzia
 
