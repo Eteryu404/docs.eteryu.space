@@ -67,12 +67,18 @@ Baza danych bez rygorystycznej struktury szybko zmieni się w chaotyczny zbiór 
 
 </div>
 
+!!! warning "Zasada separacji: Izolacja kodów TOTP"
+    Wiele menedżerów haseł (np. Bitwarden Premium lub KeePass) pozwala na przechowywanie kodów jednorazowych (2FA/TOTP) obok haseł. Z technicznego punktu widzenia łamie to całkowicie model uwierzytelniania dwuskładnikowego. Trzymając hasła i kody w jednym "sejfie", w przypadku jego kompromitacji oddajesz napastnikowi oba klucze do swoich kont. Do generowania kodów TOTP **zawsze** wykorzystuj oddzielną, wyizolowaną aplikację.
+
 ## Ciągłość działania (Disaster Recovery)
 
 Utrata dostępu do menedżera haseł to scenariusz katastrofalny. Kopia zapasowa (Backup) to najistotniejszy element procesu wdrożeniowego.
 
+!!! success "Analogowa procedura awaryjna (Break Glass)"
+    Nośnik fizyczny jest całkowicie uodporniony na ataki zdalne. Bezwzględnie zapisz swoje Hasło Główne (oraz kody odzyskiwania 2FA dla chmury) na kartce papieru. Umieść ją w fizycznie zabezpieczonym miejscu, takim jak domowy sejf, skrytka bankowa lub depozyt u zaufanego notariusza. To ostateczna linia obrony na wypadek zawieszenia pamięci lub utraty urządzeń.
+
 !!! warning "Brak centralnego resetowania haseł (Bitwarden)"
-    W modelu Zero-Knowledge, dostawca usługi (nawet Bitwarden) **nie posiada zapasowego klucza do Twojej bazy**. Jeśli zapomnisz Hasła Głównego, utracisz dostęp bezpowrotnie.
+    W modelu Zero-Knowledge, dostawca usługi (nawet Bitwarden) **nie posiada zapasowego klucza do Twojej bazy**. Jeśli zapomnisz Hasła Głównego i nie posiadasz analogowej kopii, utracisz dostęp bezpowrotnie.
 
 !!! danger "Brak chmury i ryzyko fizyczne (KeePassDX)"
     Plik bazy znajduje się wyłącznie na Twoim urządzeniu. Bezwzględnie wyeksportuj jego kopię na zaszyfrowany nośnik fizyczny (np. pendrive) i przechowuj w bezpiecznym miejscu offline. W przypadku zniszczenia, kradzieży urządzenia lub awarii pamięci, bez lokalnej kopii utracisz całą swoją cyfrową tożsamość.
