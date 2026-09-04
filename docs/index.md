@@ -20,7 +20,7 @@ Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji te
     **Zero czarnej magii, same konkrety.** W menu bocznym umieściłem ustrukturyzowane ścieżki postępowania. Wszystkie skrypty, polityki MDM oraz polecenia systemowe posiadają wbudowany przycisk kopiowania, co znacznie ułatwia ich szybkie i bezbłędne wdrożenie.
 
     <br>
-    [Rozpocznij lekturę](fundamenty/absolutne-minimum.md){ .md-button }
+    [Rozpocznij lekturę](fundamenty/index.md){ .md-button }
 
 ## Wybierz obszar
 
@@ -32,7 +32,7 @@ Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji te
     
     Absolutne minimum przetrwania. Zbiór najważniejszych zasad, od których powinieneś zacząć swoją drogę do bezpiecznego życia w sieci.
     
-    [➔ Przejdź do sekcji](fundamenty/absolutne-minimum.md)
+    [➔ Przejdź do sekcji](fundamenty/index.md)
 
 -   :material-incognito: **Prywatność i tożsamość**
     
