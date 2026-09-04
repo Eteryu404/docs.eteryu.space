@@ -1,5 +1,5 @@
 ---
-icon: material/toolbox
+icon: lucide/boxes
 ---
 
 # Narzędzia i oprogramowanie
