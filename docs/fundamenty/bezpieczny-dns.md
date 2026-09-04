@@ -4,6 +4,14 @@ icon: material/dns
 
 # Filtrowanie ruchu na poziomie DNS
 
+!!! abstract "Cel artykułu"
+    Ten materiał wyjaśnia mechanikę działania protokołu DNS oraz zagrożenia wynikające z domyślnej konfiguracji narzucanej przez operatorów. 
+    
+    Artykuł został podzielony na dwie główne części:
+    
+    * **Teoria i zagrożenia:** Zrozumienie procesu rozwiązywania nazw oraz profilowania behawioralnego.
+    * **Wdrożenie w praktyce:** Gotowe instrukcje konfiguracji bezpiecznego połączenia dla środowiska Apple oraz platformy Android.
+
 Zmiana serwerów DNS to absolutny fundament cyfrowej higieny i pierwszy krok do zabezpieczenia urządzenia przed większością realnych zagrożeń. Zobaczmy, co dokładnie dzieje się pod maską Twojego telefonu lub komputera, gdy wpisujesz adres strony internetowej, i dlaczego przejęcie kontroli nad tym procesem to Twoja najważniejsza tarcza obronna.
 
 ## Mechanika działania protokołu DNS
