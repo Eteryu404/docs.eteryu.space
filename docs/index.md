@@ -1,6 +1,6 @@
 ---
 title: Baza wiedzy
-icon: material/home
+icon: lucide/home
 hide:
   - toc
   - footer
@@ -8,15 +8,15 @@ hide:
 
 # Baza wiedzy Eteryu.space
 
-!!! success "Bieżąca aktualizacja dokumentacji (Evergreen)"
-    Cyberbezpieczeństwo to proces ciągły. Zawartość niniejszej bazy jest regularnie audytowana pod kątem najnowszych wektorów ataków, zmian w oprogramowaniu oraz ewolucji architektury Zero Trust.
+!!! success "Ciągły audyt i weryfikacja procedur"
+    Cyberbezpieczeństwo nie jest stanem docelowym lecz procesem. Zawartość tej platformy podlega rygorystycznym audytom pod kątem najnowszych wektorów ataków, zmian w architekturze oprogramowania oraz ewolucji modelu Zero Trust.
 
-Niniejsza platforma stanowi ustrukturyzowane kompendium wiedzy z zakresu higieny cyfrowej, ochrony prywatności oraz cyberbezpieczeństwa. Jej głównym celem jest dostarczenie przystępnych, a zarazem skutecznych rozwiązań redukujących ryzyko w sieci.
+Niniejsza platforma to niezależne, ustrukturyzowane kompendium wiedzy z zakresu higieny cyfrowej oraz cyberbezpieczeństwa. Jej głównym celem jest dostarczanie obiektywnych, pozbawionych marketingowego szumu i najbardziej rygorystycznych procedur pozwalających na odzyskanie pełnej kontroli nad własną technologią.
 
-Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdrożenia. Dokumentacja oferuje przejrzyste instrukcje konfiguracji oraz rekomendacje zweryfikowanego oprogramowania, umożliwiając każdemu użytkownikowi świadome budowanie bezpiecznego środowiska cyfrowego.
+Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdrożenia. Dokumentacja oferuje przejrzyste instrukcje konfiguracji oraz rekomendacje zweryfikowanego oprogramowania umożliwiając każdemu użytkownikowi świadome budowanie bezpiecznego środowiska cyfrowego.
 
-!!! info "Powiązanie z głównym portalem"
-    Baza wiedzy funkcjonuje jako techniczne rozszerzenie bloga [Eteryu.space](https://eteryu.space/). Podczas gdy długie publikacje blogowe skupiają się na dogłębnej analizie systemów, wektorów zagrożeń oraz recenzjach narzędzi, niniejsza dokumentacja agreguje wyłącznie wyekstrahowane, gotowe do implementacji procedury operacyjne.
+!!! info "Architektura ekosystemu"
+    To kompendium stanowi główny rdzeń operacyjny projektu. Z kolei [blog Eteryu.space](https://eteryu.space/) pełni funkcję analityczną i publicystyczną. Podczas gdy blog dostarcza dogłębnych analiz systemów, raportów o zagrożeniach oraz szerszego kontekstu architektonicznego, niniejsza dokumentacja agreguje wyłącznie twarde i gotowe do wdrożenia procedury.
 
 ## Wybierz obszar
 
