@@ -8,7 +8,7 @@ Zaawansowane techniki redukcji cyfrowego śladu oraz odzyskiwania kontroli nad d
 
 <div class="grid cards" markdown>
 
--   :material-email-lock: **Maskowanie poczty elektronicznej**
+-   :lucide-mails: **Maskowanie poczty elektronicznej**
     
     ---
     
@@ -16,7 +16,7 @@ Zaawansowane techniki redukcji cyfrowego śladu oraz odzyskiwania kontroli nad d
     
     [➔ Przejdź do artykułu](aliasy.md)
 
--   :material-cellphone-key: **Bezpieczna komunikacja**
+-   :lucide-message-square: **Bezpieczna komunikacja**
     
     ---
     
