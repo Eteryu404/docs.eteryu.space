@@ -1,6 +1,6 @@
 ---
 title: Bezpieczny DNS
-icon: material/dns
+icon: lucide/server
 ---
 
 # Filtrowanie ruchu na poziomie DNS
