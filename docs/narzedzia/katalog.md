@@ -58,7 +58,7 @@ icon: lucide/list
     
     [➔ Przejdź do repozytorium](https://github.com/GrapheneOS/Vanadium)
 
--   :material-web: **Brave**
+-   :fontawesome-brands-brave: **Brave**
     
     ---
     
