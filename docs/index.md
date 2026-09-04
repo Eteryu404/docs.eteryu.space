@@ -3,6 +3,7 @@ title: Baza wiedzy
 icon: material/home
 hide:
   - toc
+  - footer
 ---
 
 # Baza wiedzy Eteryu.space
@@ -20,3 +21,42 @@ Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji te
 
     <br>
     [Rozpocznij lekturę](kategoria-testowa/test.md){ .md-button }
+
+## Wybierz obszar
+
+<div class="grid cards" markdown>
+
+-   :material-map-marker-path: **Ścieżki postępowania**
+    
+    ---
+    
+    Gotowe scenariusze postępowania w typowych sytuacjach zagrożenia – od phishingu po ransomware.
+    
+    [➔ Przejdź do sekcji](#)
+
+-   :material-alert: **Obsługa incydentów**
+    
+    ---
+    
+    Procedury reagowania na incydenty bezpieczeństwa – krok po kroku, od wykrycia po zakończenie obsługi i wyciągnięcie wniosków.
+    
+    [➔ Przejdź do sekcji](#)
+
+-   :material-account-lock: **Bezpieczeństwo osobiste**
+    
+    ---
+    
+    Porady i wskazówki dla użytkowników indywidualnych – jak chronić siebie, swoje urządzenia i dane osobowe przed zagrożeniami.
+    
+    [➔ Przejdź do sekcji](#)
+
+-   :material-format-list-checks: **Dobre praktyki**
+    
+    ---
+    
+    Zbiór sprawdzonych rekomendacji i dobrych praktyk z zakresu cyberbezpieczeństwa pomagających w skutecznej ochronie.
+    
+    [➔ Przejdź do sekcji](#)
+
+</div>
+---
