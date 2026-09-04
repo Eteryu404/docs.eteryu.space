@@ -26,37 +26,30 @@ Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji te
 
 <div class="grid cards" markdown>
 
--   :material-map-marker-path: **Ścieżki postępowania**
+-   :material-shield-half-full: **Fundamenty cyfrowe**
     
     ---
     
-    Gotowe scenariusze postępowania w typowych sytuacjach zagrożenia – od phishingu po ransomware.
+    Absolutne minimum przetrwania. Zbiór najważniejszych zasad, od których powinieneś zacząć swoją drogę do bezpiecznego życia w sieci.
     
-    [➔ Przejdź do sekcji](#)
+    [➔ Przejdź do sekcji](kategoria-testowa/test.md)
 
--   :material-alert: **Obsługa incydentów**
+-   :material-incognito: **Prywatność i tożsamość**
     
     ---
     
-    Procedury reagowania na incydenty bezpieczeństwa – krok po kroku, od wykrycia po zakończenie obsługi i wyciągnięcie wniosków.
+    Zaawansowane techniki redukcji cyfrowego śladu. Alternatywne aplikacje, bezpieczna komunikacja i skuteczna obrona przed inwigilacją.
     
-    [➔ Przejdź do sekcji](#)
+    [➔ W przygotowaniu](#)
 
--   :material-account-lock: **Bezpieczeństwo osobiste**
+-   :material-security: **Zaawansowany Hardening**
     
     ---
     
-    Porady i wskazówki dla użytkowników indywidualnych – jak chronić siebie, swoje urządzenia i dane osobowe przed zagrożeniami.
+    Rygorystyczne utwardzanie systemów. Gotowe polityki MDM, wirtualizacja oraz wdrażanie architektury Zero Trust w praktyce.
     
-    [➔ Przejdź do sekcji](#)
-
--   :material-format-list-checks: **Dobre praktyki**
-    
-    ---
-    
-    Zbiór sprawdzonych rekomendacji i dobrych praktyk z zakresu cyberbezpieczeństwa pomagających w skutecznej ochronie.
-    
-    [➔ Przejdź do sekcji](#)
+    [➔ W przygotowaniu](#)
 
 </div>
+
 ---
