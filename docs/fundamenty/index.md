@@ -10,14 +10,6 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
 
 <div class="grid cards" markdown>
 
--   :material-dns: **Filtrowanie ruchu na poziomie DNS**
-    
-    ---
-    
-    Jak wykorzystać zaufane serwery DNS do skutecznego blokowania telemetrii, reklam oraz złośliwych domen w całej sieci.
-    
-    [➔ Przejdź do artykułu](bezpieczny-dns.md)
-
 -   :material-update: **Rygorystyczne aktualizacje**
     
     ---
@@ -25,6 +17,14 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
     Procedury instalacji poprawek bezpieczeństwa, zarządzanie krytycznymi podatnościami i cyklem życia urządzeń.
     
     [➔ Przejdź do artykułu](aktualizacje.md)
+
+-   :material-dns: **Filtrowanie ruchu na poziomie DNS**
+    
+    ---
+    
+    Jak wykorzystać zaufane serwery DNS do skutecznego blokowania telemetrii, reklam oraz złośliwych domen w całej sieci.
+    
+    [➔ Przejdź do artykułu](bezpieczny-dns.md)
 
 -   :material-form-textbox-password: **Wdrożenie menedżera haseł**
     
