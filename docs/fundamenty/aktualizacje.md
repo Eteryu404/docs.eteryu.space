@@ -3,7 +3,7 @@ title: Rygorystyczne aktualizacje
 icon: material/update
 ---
 
-# Rygorystyczna polityka aktualizacji
+# Rygorystyczne aktualizacje
 
 !!! abstract "Cel artykułu"
     Ten materiał definiuje rygorystyczne standardy zarządzania cyklem życia oprogramowania oraz wyjaśnia techniczne wektory ataków bazujących na niezałatanych podatnościach.
