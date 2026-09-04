@@ -1,6 +1,6 @@
 ---
 title: Aliasy pocztowe
-icon: material/email-lock
+icon: lucide/mails
 ---
 
 # Maskowanie poczty elektronicznej
