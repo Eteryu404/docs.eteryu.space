@@ -14,6 +14,7 @@ nav = [
     { "Baza wiedzy" = "index.md" },
     { "Fundamenty" = [
         "fundamenty/index.md",
+        "fundamenty/aktualizacje.md",
         "fundamenty/bezpieczny-dns.md"
     ]}
 ]
