@@ -8,19 +8,15 @@ hide:
 
 # Baza wiedzy Eteryu.space
 
-!!! success "Fundamenty i dokumentacja Evergreen"
-    **Cyberbezpieczeństwo to proces, a nie gotowy produkt z pudełka.**
-    Zawartość tej bazy jest przeze mnie stale weryfikowana i aktualizowana pod kątem najnowszych wektorów ataków oraz zmian w oprogramowaniu.
+!!! success "Bieżąca aktualizacja dokumentacji (Evergreen)"
+    Cyberbezpieczeństwo to proces ciągły. Zawartość niniejszej bazy jest regularnie audytowana pod kątem najnowszych wektorów ataków, zmian w oprogramowaniu oraz ewolucji architektury Zero Trust.
 
-Witaj w oficjalnej bazie wiedzy [eteryu.space](https://eteryu.space). To miejsce stanowi esencję najważniejszych informacji, procedur i utwardzonych konfiguracji z zakresu cyberbezpieczeństwa, prywatności w sieci oraz cyfrowej higieny.
+Niniejsza platforma stanowi ustrukturyzowane kompendium wiedzy z zakresu higieny cyfrowej, ochrony prywatności oraz cyberbezpieczeństwa. Jej głównym celem jest dostarczenie przystępnych, a zarazem skutecznych rozwiązań redukujących ryzyko w sieci.
 
-Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji teatru prywatności, natomiast tutaj dostarczam gotowe do wdrożenia rozwiązania. Odrzucam złudzenia i niebezpieczne podejście typu "set and forget". Zamiast tego udostępniam wyłącznie sprawdzone metody realnej redukcji ryzyka. Przejdziesz tu drogę od podstawowego zabezpieczenia smartfona po rygorystyczne modelowanie zagrożeń w oparciu o architekturę Zero Trust.
+Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdrożenia. Dokumentacja oferuje przejrzyste instrukcje konfiguracji oraz rekomendacje zweryfikowanego oprogramowania, umożliwiając każdemu użytkownikowi świadome budowanie bezpiecznego środowiska cyfrowego.
 
-!!! abstract "Jak korzystać z tej bazy?"
-    **Zero czarnej magii, same konkrety.** W menu bocznym umieściłem ustrukturyzowane ścieżki postępowania. Wszystkie skrypty, polityki MDM oraz polecenia systemowe posiadają wbudowany przycisk kopiowania, co znacznie ułatwia ich szybkie i bezbłędne wdrożenie.
-
-    <br>
-    [Rozpocznij lekturę](fundamenty/index.md){ .md-button }
+!!! info "Powiązanie z głównym portalem"
+    Baza wiedzy funkcjonuje jako techniczne rozszerzenie bloga [Eteryu.space](https://eteryu.space/). Podczas gdy długie publikacje blogowe skupiają się na dogłębnej analizie systemów, wektorów zagrożeń oraz recenzjach narzędzi, niniejsza dokumentacja agreguje wyłącznie wyekstrahowane, gotowe do implementacji procedury operacyjne.
 
 ## Wybierz obszar
 
@@ -30,7 +26,7 @@ Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji te
     
     ---
     
-    Absolutne minimum przetrwania. Zbiór najważniejszych zasad, od których powinieneś zacząć swoją drogę do bezpiecznego życia w sieci.
+    Krytyczne minimum bezpieczeństwa. Procedury zarządzania aktualizacjami, konfiguracja bezpiecznego protokołu DNS oraz podstawy zarządzania poświadczeniami.
     
     [➔ Przejdź do sekcji](fundamenty/index.md)
 
@@ -38,18 +34,24 @@ Na blogu skupiam się przede wszystkim na analizie zagrożeń i dekonstrukcji te
     
     ---
     
-    Zaawansowane techniki redukcji cyfrowego śladu. Alternatywne aplikacje, bezpieczna komunikacja i skuteczna obrona przed inwigilacją.
+    Zaawansowane techniki redukcji cyfrowego śladu. Maskowanie poczty email, izolacja usług oraz mechanizmy obrony przed zautomatyzowanym profilowaniem behawioralnym.
     
-    [➔ W przygotowaniu](#)
+    [➔ Przejdź do sekcji](prywatnosc/index.md)
 
--   :material-security: **Zaawansowany Hardening**
+-   :material-toolbox: **Narzędzia i oprogramowanie**
     
     ---
     
-    Rygorystyczne utwardzanie systemów. Gotowe polityki MDM, wirtualizacja oraz wdrażanie architektury Zero Trust w praktyce.
+    Rygorystycznie wyselekcjonowany katalog zweryfikowanego oprogramowania, stanowiący fundament do budowy stabilnego i wyizolowanego środowiska pracy.
     
-    [➔ W przygotowaniu](#)
+    [➔ Przejdź do katalogu](narzedzia/index.md)
+
+-   :material-security: **Zaawansowana ochrona**
+    
+    ---
+    
+    Rygorystyczne utwardzanie urządzeń. Konfiguracja zaawansowanych uprawnień, fizyczne klucze zabezpieczeń oraz praktyczne mechanizmy izolacji aplikacji.
+    
+    *➔ W przygotowaniu*
 
 </div>
-
----
