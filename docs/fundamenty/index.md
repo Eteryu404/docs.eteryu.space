@@ -10,7 +10,7 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
 
 <div class="grid cards" markdown>
 
--   :material-update: **Rygorystyczne aktualizacje**
+-   :lucide-refresh-cw: **Rygorystyczne aktualizacje**
     
     ---
     
@@ -18,7 +18,7 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
     
     [➔ Przejdź do artykułu](aktualizacje.md)
 
--   :material-dns: **Filtrowanie ruchu na poziomie DNS**
+-   :lucide-server: **Filtrowanie ruchu na poziomie DNS**
     
     ---
     
@@ -26,7 +26,7 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
     
     [➔ Przejdź do artykułu](bezpieczny-dns.md)
 
--   :material-form-textbox-password: **Wdrożenie menedżera haseł**
+-   :lucide-key: **Wdrożenie menedżera haseł**
     
     ---
     
@@ -34,7 +34,7 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
     
     *➔ W przygotowaniu*
 
--   :material-two-factor-authentication: **Uwierzytelnianie dwuskładnikowe (2FA)**
+-   :lucide-smartphone: **Uwierzytelnianie dwuskładnikowe (2FA)**
     
     ---
     
