@@ -8,7 +8,7 @@ Zaawansowane techniki redukcji cyfrowego śladu oraz odzyskiwania kontroli nad d
 
 <div class="grid cards" markdown>
 
--   :material-email-secure: **Maskowanie poczty elektronicznej**
+-   :material-email-lock: **Maskowanie poczty elektronicznej**
     
     ---
     
