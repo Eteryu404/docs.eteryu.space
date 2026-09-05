@@ -1,7 +1,7 @@
 ---
 title: Baza wiedzy
 icon: lucide/home
-image: assets/img/meta-eteryu.png
+image: https://eteryu.space/assets/img/meta-eteryu.png
 hide:
   - toc
   - footer
