@@ -33,6 +33,7 @@ nav = [
 
 # theme settings
 [project.theme]
+custom_dir = "overrides"
 favicon = "assets/img/1552167043208769.png"
 logo = "assets/img/1552167043208769.png"
 language = "pl"
