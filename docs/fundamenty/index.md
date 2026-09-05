@@ -10,6 +10,14 @@ Poniższe praktyki to absolutne minimum cyfrowego przetrwania. Nie wymagają one
 
 <div class="grid cards" markdown>
 
+-   :lucide-crosshair: **Modelowanie zagrożeń**
+    
+    ---
+    
+    Identyfikacja aktywów i analiza adwersarza. Metodologia pozwalająca dostosować zabezpieczenia do Twojego realnego profilu ryzyka.
+    
+    [➔ Przejdź do artykułu](modelowanie-zagrozen.md)
+
 -   :lucide-refresh-cw: **Rygorystyczne aktualizacje**
     
     ---
