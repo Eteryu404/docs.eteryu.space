@@ -14,6 +14,7 @@ nav = [
     { "Baza wiedzy" = "index.md" },
     { "Fundamenty" = [
         "fundamenty/index.md",
+        "fundamenty/modelowanie-zagrozen.md",
         "fundamenty/aktualizacje.md",
         "fundamenty/menedzer-hasel.md",
         "fundamenty/bezpieczny-dns.md"
