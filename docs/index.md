@@ -18,6 +18,11 @@ Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdro
 !!! info "Architektura projektu"
     To kompendium stanowi główny rdzeń operacyjny projektu. Z kolei [blog Eteryu.space](https://blog.eteryu.space/) pełni funkcję analityczną i publicystyczną. Podczas gdy blog dostarcza dogłębnych analiz systemów, raportów o zagrożeniach oraz szerszego kontekstu architektonicznego, niniejsza dokumentacja agreguje wyłącznie twarde i gotowe do wdrożenia procedury.
 
+!!! tip "Punkt startowy: Od czego zacząć?"
+    Zanim przystąpisz do rekonfiguracji urządzeń i wdrażania zaawansowanych procedur, musisz zdefiniować swój indywidualny profil ryzyka. Zapoznaj się z absolutnym fundamentem, aby racjonalnie dobierać narzędzia i unikać tzw. szumu technologicznego.
+    
+    [➔ Rozpocznij lekturę: Modelowanie zagrożeń i zasady OPSEC](fundamenty/modelowanie-zagrozen.md)
+
 ## Wybierz obszar
 
 <div class="grid cards" markdown>
