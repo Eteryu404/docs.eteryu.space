@@ -4,6 +4,7 @@ site_name = "Baza wiedzy Eteryu.space"
 site_description = "Baza wiedzy i techniczne poradniki dotyczące prywatności i cyberbezpieczeństwa."
 site_author = "Eteryu"
 site_url = "https://eteryu.space"
+site_image = "assets/img/meta-eteryu.png"
 copyright = "Copyright &copy; 2026 Eteryu"
 
 # custom styles
@@ -76,9 +77,6 @@ media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
-
-[project.extra]
-image = "assets/img/meta-eteryu.png"
 
 # footer social links
 [[project.extra.social]]
