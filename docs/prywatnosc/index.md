@@ -8,7 +8,7 @@ Zaawansowane techniki redukcji cyfrowego śladu oraz odzyskiwania kontroli nad d
 
 <div class="grid cards" markdown>
 
--   :lucide-fingerprint: **Identyfikator reklamowy**
+-   :lucide-barcode: **Identyfikator reklamowy**
     
     ---
     
