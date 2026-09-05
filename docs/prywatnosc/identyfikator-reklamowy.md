@@ -1,6 +1,6 @@
 ---
 title: Identyfikator reklamowy
-icon: lucide/fingerprint
+icon: lucide/barcode
 ---
 
 # Identyfikator reklamowy
