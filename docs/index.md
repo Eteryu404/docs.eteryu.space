@@ -15,13 +15,10 @@ Niniejsza platforma to niezależne, ustrukturyzowane kompendium wiedzy z zakresu
 
 Materiały zostały zaprojektowane z myślą o uniwersalności i łatwości wdrożenia. Dokumentacja oferuje przejrzyste instrukcje konfiguracji oraz rekomendacje zweryfikowanego oprogramowania, umożliwiając każdemu użytkownikowi świadome budowanie bezpiecznego środowiska, ze szczególnym uwzględnieniem smartfona jako głównego centrum dowodzenia.
 
-!!! info "Architektura projektu"
-    To kompendium stanowi główny rdzeń operacyjny projektu. Z kolei [blog Eteryu.space](https://blog.eteryu.space/) pełni funkcję analityczną i publicystyczną. Podczas gdy blog dostarcza dogłębnych analiz systemów, raportów o zagrożeniach oraz szerszego kontekstu architektonicznego, niniejsza dokumentacja agreguje wyłącznie twarde i gotowe do wdrożenia procedury.
-
-!!! tip "Od czego zacząć?"
+!!! tip "Punkt startowy: Od czego zacząć?"
     Zanim przystąpisz do rekonfiguracji urządzeń i wdrażania zaawansowanych procedur, musisz zdefiniować swój indywidualny profil ryzyka. Zapoznaj się z absolutnym fundamentem, aby racjonalnie dobierać narzędzia i unikać tzw. szumu technologicznego.
     
-    [Rozpocznij lekturę: Modelowanie zagrożeń ➔](fundamenty/modelowanie-zagrozen.md){ .md-button .md-button--primary }
+    [Rozpocznij lekturę](fundamenty/modelowanie-zagrozen.md){ .md-button .md-button--primary }
 
 ## Wybierz obszar
 
