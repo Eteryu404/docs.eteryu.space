@@ -77,6 +77,9 @@ scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
+[project.extra]
+image = "assets/img/meta-eteryu.png"
+
 # footer social links
 [[project.extra.social]]
 icon = "fontawesome/brands/mastodon"
