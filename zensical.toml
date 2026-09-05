@@ -20,6 +20,7 @@ nav = [
     ]},
     { "Prywatność i tożsamość" = [
         "prywatnosc/index.md",
+        "prywatnosc/identyfikator-reklamowy.md",
         "prywatnosc/aliasy.md"
     ]},
     { "Narzędzia" = [
