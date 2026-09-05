@@ -8,6 +8,14 @@ Zaawansowane techniki redukcji cyfrowego śladu oraz odzyskiwania kontroli nad d
 
 <div class="grid cards" markdown>
 
+-   :lucide-fingerprint: **Identyfikator reklamowy**
+    
+    ---
+    
+    Odcięcie systemowej telemetrii i neutralizacja globalnych identyfikatorów śledzących (Ad ID) w ekosystemach Android oraz iOS.
+    
+    [➔ Przejdź do artykułu](identyfikator-reklamowy.md)
+
 -   :lucide-mails: **Maskowanie poczty elektronicznej**
     
     ---
